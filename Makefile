@@ -10,7 +10,8 @@ FILES					= main \
 								 OsInfoModule \
 								 TimeModule \
 								 AField \
-								 TextField
+								 TextField \
+								 CPUModule
 SRC						= $(addprefix src/, $(addsuffix .cpp, $(FILES)))
 OBJ						= $(addprefix obj/, $(addsuffix .o, $(FILES)))
 LIB_SDL				= SDL
