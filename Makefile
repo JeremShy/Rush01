@@ -19,7 +19,7 @@ LIB_SDL				= SDL
 PATH_SDL			= SDL2-2.0.5
 PATH_SDL_IMG	= SDL2_image-2.0.1
 CMP						=	clang++
-INC =  -I inc -I $(LIB_SDL)/include -I $(LIB_SDL)/lib/
+INC =  -I inc -I $(LIB_SDL)/include -I $(LIB_SDL)/lib/ -g
 SDL		=	`./$(LIB_SDL)/bin/sdl2-config --cflags --libs` -lSDL2_image
 
 all: $(LIB_SDL) $(NAME)
