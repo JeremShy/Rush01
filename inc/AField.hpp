@@ -6,9 +6,9 @@ class AField
 public:
 	AField();
 	~AField();
-private:
-	AField(AField const & afield);
 	AField		& operator=(AField const & afield);
+	AField(AField const & afield);
+private:
 };
 
 # endif
