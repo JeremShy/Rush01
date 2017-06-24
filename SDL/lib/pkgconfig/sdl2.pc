@@ -1,6 +1,6 @@
 # sdl pkg-config source file
 
-prefix=/Users/jcamhi/Piscine_CPP/rush01/SDL
+prefix=/Users/uprince/42/piscine_cpp/work/rush01/github/SDL
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

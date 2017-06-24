@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/jcamhi/Piscine_CPP/rush01/SDL/lib'
+libdir='/Users/uprince/42/piscine_cpp/work/rush01/github/SDL/lib'
