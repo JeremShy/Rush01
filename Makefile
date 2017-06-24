@@ -13,7 +13,9 @@ FILES					= main \
 								 TextField \
 								 CPUModule \
 								 Timer \
-								 MemModule
+								 MemModule \
+								 NcurseDisplay \
+								 display
 SRC						= $(addprefix src/, $(addsuffix .cpp, $(FILES)))
 OBJ						= $(addprefix obj/, $(addsuffix .o, $(FILES)))
 LIB_SDL				= SDL
@@ -21,7 +23,7 @@ PATH_SDL			= SDL2-2.0.5
 PATH_SDL_IMG	= SDL2_image-2.0.1
 CMP						=	clang++
 INC =  -I inc -I $(LIB_SDL)/include -I $(LIB_SDL)/lib/ -g
-SDL		=	`./$(LIB_SDL)/bin/sdl2-config --cflags --libs` -lSDL2_image
+SDL		=	`./$(LIB_SDL)/bin/sdl2-config --cflags --libs` -lSDL2_image -lncurses
 
 all: $(LIB_SDL) $(NAME)
 

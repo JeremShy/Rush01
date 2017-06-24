@@ -1,0 +1,199 @@
+==96239== Memcheck, a memory error detector
+==96239== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==96239== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==96239== Command: ./GKrellM
+==96239== 
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x7FFF5FC23DC7: bcmp (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==96239== 
+==96239== Use of uninitialised value of size 8
+==96239==    at 0x7FFF5FC23DDF: bcmp (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==96239== 
+==96239== Use of uninitialised value of size 8
+==96239==    at 0x7FFF5FC23DE4: bcmp (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==96239== 
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x7FFF5FC11AF7: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==96239==    by 0x7FFF5FC0EA4D: ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&) (in /usr/lib/dyld)
+==96239== 
+--96239-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option
+--96239-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option (repeated 2 times)
+--96239-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option (repeated 4 times)
+--96239-- UNKNOWN host message [id 216, to mach_host_self(), reply 0x60f]
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x103D418A7: __vfprintf (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D676C0: __v2printf (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D4BB5D: vsprintf_l (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D3BF83: sprintf_l (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x1001FBD39: std::__1::num_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > >::do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::ios_base&, char, long) const (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x1001E2060: std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(int) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x10000E0E3: CPUModule::getDisplayInfo() (CPUModule.cpp:67)
+==96239==    by 0x10000100D: main (main.cpp:25)
+==96239== 
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x103D41E90: __ultoa (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D3F364: __vfprintf (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D676C0: __v2printf (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D4BB5D: vsprintf_l (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D3BF83: sprintf_l (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x1001FBD39: std::__1::num_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > >::do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::ios_base&, char, long) const (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x1001E2060: std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(int) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x10000E0E3: CPUModule::getDisplayInfo() (CPUModule.cpp:67)
+==96239==    by 0x10000100D: main (main.cpp:25)
+==96239== 
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x1001E6360: std::__1::__stdoutbuf<char>::overflow(int) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x1001DC1CC: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x100003297: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (streambuf:360)
+==96239==    by 0x100002B4E: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (ostream:755)
+==96239==    by 0x1000041B2: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (ostream:1080)
+==96239==    by 0x10000E14C: CPUModule::getDisplayInfo() (CPUModule.cpp:69)
+==96239==    by 0x10000100D: main (main.cpp:25)
+==96239== 
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x10002D339: _platform_memchr$VARIANT$Generic (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==96239==    by 0x103D36F7D: __sfvwrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D37342: fwrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x1001E638B: std::__1::__stdoutbuf<char>::overflow(int) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x1001DC1CC: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x100003297: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (streambuf:360)
+==96239==    by 0x100002B4E: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (ostream:755)
+==96239==    by 0x1000041B2: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (ostream:1080)
+==96239==    by 0x10000E14C: CPUModule::getDisplayInfo() (CPUModule.cpp:69)
+==96239==    by 0x10000100D: main (main.cpp:25)
+==96239== 
+==96239== Conditional jump or move depends on uninitialised value(s)
+==96239==    at 0x1001DC1D0: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x100003297: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (streambuf:360)
+==96239==    by 0x100002B4E: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (ostream:755)
+==96239==    by 0x1000041B2: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (ostream:1080)
+==96239==    by 0x10000E14C: CPUModule::getDisplayInfo() (CPUModule.cpp:69)
+==96239==    by 0x10000100D: main (main.cpp:25)
+==96239== 
+==96239== Syscall param write(buf) points to uninitialised byte(s)
+==96239==    at 0x103E48612: write$NOCANCEL (in /usr/lib/system/libsystem_kernel.dylib)
+==96239==    by 0x103D3C1F9: _swrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D34724: __sflush (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D37038: __sfvwrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D37342: fwrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x1001E638B: std::__1::__stdoutbuf<char>::overflow(int) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x1001E30FF: std::__1::basic_ostream<char, std::__1::char_traits<char> >::put(char) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x10000163C: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::endl<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) (ostream:1034)
+==96239==    by 0x10000E17D: CPUModule::getDisplayInfo() (ostream:322)
+==96239==    by 0x10000100D: main (main.cpp:25)
+==96239==  Address 0x10b754969 is 25 bytes inside a block of size 4,096 alloc'd
+==96239==    at 0x10002B671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==96239==    by 0x103D37AEE: __smakebuf (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D4CB41: __swsetup (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D36D4A: __sfvwrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x103D37342: fwrite (in /usr/lib/system/libsystem_c.dylib)
+==96239==    by 0x1001E638B: std::__1::__stdoutbuf<char>::overflow(int) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x1001DC1CC: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x100003297: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (streambuf:360)
+==96239==    by 0x100002B4E: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (ostream:755)
+==96239==    by 0x10000154B: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) (ostream:894)
+==96239==    by 0x100003BFB: HostnameModule::getDisplayInfo() (HostnameModule.cpp:37)
+==96239==    by 0x100000AC7: main (main.cpp:9)
+==96239== 
+--96239-- UNKNOWN host message [id 216, to mach_host_self(), reply 0x60f] (repeated 2 times)
+==96239== Invalid read of size 8
+==96239==    at 0x100011B99: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:73)
+==96239==    by 0x10001094C: NcurseDisplay::display(std::__1::vector<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:29)
+==96239==    by 0x1000012A6: main (main.cpp:31)
+==96239==  Address 0x10b868740 is 0 bytes inside a block of size 16 free'd
+==96239==    at 0x10002BAB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==96239==    by 0x1000049DB: std::__1::__vector_base<AField*, std::__1::allocator<AField*> >::~__vector_base() (new:177)
+==96239==    by 0x1000047F4: std::__1::vector<AField*, std::__1::allocator<AField*> >::~vector() (vector:457)
+==96239==    by 0x100004584: std::__1::vector<AField*, std::__1::allocator<AField*> >::~vector() (vector:457)
+==96239==    by 0x100011A6C: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:68)
+==96239==    by 0x10001094C: NcurseDisplay::display(std::__1::vector<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:29)
+==96239==    by 0x1000012A6: main (main.cpp:31)
+==96239==  Block was alloc'd at
+==96239==    at 0x10002B671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==96239==    by 0x10020D7DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==96239==    by 0x100005CAC: std::__1::vector<AField*, std::__1::allocator<AField*> >::allocate(unsigned long) (new:169)
+==96239==    by 0x100005B7D: std::__1::vector<AField*, std::__1::allocator<AField*> >::vector(std::__1::vector<AField*, std::__1::allocator<AField*> > const&) (vector:1205)
+==96239==    by 0x1000046EC: std::__1::vector<AField*, std::__1::allocator<AField*> >::vector(std::__1::vector<AField*, std::__1::allocator<AField*> > const&) (vector:1198)
+==96239==    by 0x1000046BB: DisplayBlock::getFields() const (DisplayBlock.cpp:22)
+==96239==    by 0x1000119F3: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:68)
+==96239==    by 0x10001094C: NcurseDisplay::display(std::__1::vector<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:29)
+==96239==    by 0x1000012A6: main (main.cpp:31)
+==96239== 
+==96239== Invalid write of size 4
+==96239==    at 0x10000CAC1: TextField::getFieldSizeForNcurse() (TextField.cpp:37)
+==96239==    by 0x100011BAE: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:73)
+==96239==    by 0x10001094C: NcurseDisplay::display(std::__1::vector<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:29)
+==96239==    by 0x1000012A6: main (main.cpp:31)
+==96239==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==96239== 
+==96239== 
+==96239== Process terminating with default action of signal 11 (SIGSEGV)
+==96239==  Access not within mapped region at address 0x4
+==96239==    at 0x10000CAC1: TextField::getFieldSizeForNcurse() (TextField.cpp:37)
+==96239==    by 0x100011BAE: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:73)
+==96239==    by 0x10001094C: NcurseDisplay::display(std::__1::vector<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:29)
+==96239==    by 0x1000012A6: main (main.cpp:31)
+==96239==  If you believe this happened as a result of a stack
+==96239==  overflow in your program's main thread (unlikely but
+==96239==  possible), you can try to increase the size of the
+==96239==  main thread stack using the --main-stacksize= flag.
+==96239==  The main thread stack size used in this run was 8388608.
+==96239== 
+==96239== HEAP SUMMARY:
+==96239==     in use at exit: 2,377,087 bytes in 1,659 blocks
+==96239==   total heap usage: 2,682 allocs, 1,023 frees, 3,549,475 bytes allocated
+==96239== 
+==96239== LEAK SUMMARY:
+==96239==    definitely lost: 0 bytes in 0 blocks
+==96239==    indirectly lost: 0 bytes in 0 blocks
+==96239==      possibly lost: 17,912 bytes in 137 blocks
+==96239==    still reachable: 1,116,032 bytes in 1,052 blocks
+==96239==         suppressed: 1,243,143 bytes in 470 blocks
+==96239== Rerun with --leak-check=full to see details of leaked memory
+==96239== 
+==96239== For counts of detected and suppressed errors, rerun with: -v
+==96239== Use --track-origins=yes to see where uninitialised values come from
+==96239== ERROR SUMMARY: 32 errors from 12 contexts (suppressed: 0 from 0)

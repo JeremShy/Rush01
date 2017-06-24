@@ -15,6 +15,9 @@ public:
 	unsigned int			getSize(void) const;
 	void							setText(std::string const text);
 	void							setSize(unsigned int const size);
+	std::vector<int>	getFieldSizeForNcurse(void);
+	std::vector<int>	printFieldForNcurse(int x, int y);
+
 private:
 	TextField		& operator=(TextField const & textfield);
 

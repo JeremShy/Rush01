@@ -11,5 +11,6 @@
 #include <TimeModule.hpp>
 #include <CPUModule.hpp>
 #include <MemModule.hpp>
+#include <NcurseDisplay.hpp>
 
 #endif
