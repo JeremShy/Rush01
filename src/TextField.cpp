@@ -30,6 +30,7 @@ TextField::TextField(TextField const & textfield) {
 	this->_text = textfield._text;
 	this->_size = textfield._size;
 }
+
 TextField & TextField::operator=(TextField const & textfield) {
 	this->_text = textfield.getText();
 	this->_size = textfield.getSize();
