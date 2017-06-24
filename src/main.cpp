@@ -1,9 +1,10 @@
 #include <main.hpp>
 #include <unistd.h>
 #include <ncurses.h>
+#include <deque>
 
 int main() {
-	std::vector<DisplayBlock> vec;
+	std::deque<DisplayBlock> vec;
 
 	HostnameModule a;
 	vec.push_back(a.getDisplayInfo());

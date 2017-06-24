@@ -3,7 +3,7 @@
 
 # include <string>
 # include <iostream>
-# include <vector>
+# include <deque>
 # include "AField.hpp"
 
 class DisplayBlock {
@@ -11,11 +11,11 @@ public:
 	DisplayBlock(void);
 	~DisplayBlock(void);
 	void												addField(AField *field);
-	std::vector<AField*>				getFields(void) const;
+	std::deque<AField*>				getFields(void) const;
 	DisplayBlock(DisplayBlock const & src);
 
 private:
 	DisplayBlock & operator=(DisplayBlock const & rhs);
-	std::vector<AField*>				_fields;
+	std::deque<AField*>				_fields;
 };
 #endif

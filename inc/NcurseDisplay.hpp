@@ -4,6 +4,7 @@
 # include <string>
 # include <iostream>
 # include <IMonitorDisplay.hpp>
+# include <deque>
 
 class NcurseDisplay : IMonitorDisplay{
 public:
@@ -13,7 +14,7 @@ public:
 
 	NcurseDisplay & operator=(NcurseDisplay const & rhs);
 
-	void							display(std::vector<DisplayBlock>) const;
+	void							display(std::deque<DisplayBlock>) const;
 	std::vector<int>	printDisplayBlock(DisplayBlock block, int x, int y) const;
 	std::vector<int>	printField(AField *field, int x, int y) const;
 	std::vector<int>	getDisplayBlockSize(DisplayBlock block) const;

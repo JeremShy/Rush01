@@ -29,11 +29,11 @@ DisplayBlock OsInfoModule::getDisplayInfo(void) {
 	std::string machine(vuname.machine);
 
 	DisplayBlock ret;
-	ret.addField(new TextField("sysname: " + sysname , 25));
-	ret.addField(new TextField("nodename: "+ nodename, 25));
-	ret.addField(new TextField("release: " + release, 25));
-	ret.addField(new TextField("version: " + version, 25));
-	ret.addField(new TextField("machine: " + machine, 25));
+	ret.addField(new TextField("sysname:  " + sysname , 25));
+	ret.addField(new TextField("nodename: " + nodename, 25));
+	ret.addField(new TextField("release:  " + release, 25));
+	ret.addField(new TextField("version:  " + version, 25));
+	ret.addField(new TextField("machine:  " + machine, 25));
 
 	std::cout << "sysname: " << sysname << std::endl << "nodename : " << nodename << std::endl << "release : " << release << std::endl << "version : " << version << std::endl << "machine : " << machine << std::endl;
 	return (ret);

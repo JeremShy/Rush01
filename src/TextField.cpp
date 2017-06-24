@@ -6,9 +6,12 @@
 TextField::TextField() {}
 
 TextField::TextField(std::string text, unsigned int size) : _text(text), _size(size) {
+	std::cout << "Creating a TextField with text: " << _text << std::endl;
 }
 
-TextField::~TextField() {}
+TextField::~TextField() {
+	std::cout << "Destroying a TextField !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << std::endl;
+}
 
 std::string				TextField::getText(void) const {
 	return this->_text;
@@ -32,8 +35,8 @@ TextField::TextField(TextField const & textfield) {
 }
 
 std::vector<int>	TextField::getFieldSizeForNcurse(void) {
+	std::cout << "In TextField::getFieldSizeForNcurse" << std::endl;
 	std::vector<int> vec(2,0);
-
 
 	std::cout << "Trying to get field size : field : " << this->_text << std::endl;
 	vec[1] = ((this->_text).length()) / 30;
@@ -48,7 +51,8 @@ std::vector<int>	TextField::getFieldSizeForNcurse(void) {
 	return (vec);
 }
 
-std::vector<int>	TextField::printFieldForNcurse(int x, int y) {
+std::vector<int>	TextField::printFieldForNcurse(int x, int y)
+{
 	std::vector<int> vec = this->getFieldSizeForNcurse();
 
 	int curx = x;

@@ -15,7 +15,7 @@ NcurseDisplay & NcurseDisplay::operator=(NcurseDisplay const & rhs) {
 	return (*this);
 }
 
-void							NcurseDisplay::display(std::vector<DisplayBlock> list) const{
+void							NcurseDisplay::display(std::deque<DisplayBlock> list) const{
 	int xmax = get_size_x();
 	int ymax = get_size_y();
 	int	xcol = 0;
@@ -23,7 +23,7 @@ void							NcurseDisplay::display(std::vector<DisplayBlock> list) const{
 	int	y = 0;
 	std::vector<int> vec(2,0);
 
-	std::vector<DisplayBlock>::iterator iterator;
+	std::deque<DisplayBlock>::iterator iterator;
 	for (iterator = list.begin(); iterator != list.end(); iterator++)
 	{
 		std::cout << "iterating in first for " << std::endl;
@@ -50,8 +50,8 @@ std::vector<int>	NcurseDisplay::getDisplayBlockSize(DisplayBlock block)const  {
 	int	x = 0;
 	int	y = 0;
 
-	std::vector<AField*>::iterator iterator = block.getFields().begin();
-	std::vector<AField*>::iterator end = block.getFields().end();
+	std::deque<AField*>::iterator iterator = block.getFields().begin();
+	std::deque<AField*>::iterator end = block.getFields().end();
 
 
 	for (; iterator != end; iterator++)
@@ -77,8 +77,8 @@ std::vector<int>	NcurseDisplay::printDisplayBlock(DisplayBlock block, int x, int
 	std::vector<int> ret = getDisplayBlockSize(block);
 	std::vector<int> vec(2, 0);
 
-	std::vector<AField*>::iterator iterator = block.getFields().begin();
-	std::vector<AField*>::iterator end = block.getFields().end();
+	std::deque<AField*>::iterator iterator = block.getFields().begin();
+	std::deque<AField*>::iterator end = block.getFields().end();
 	ret[0] = 0;
 	ret[1] = 0;
 	int curx = x;

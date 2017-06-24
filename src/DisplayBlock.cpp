@@ -2,22 +2,21 @@
 
 //PUBLIC
 DisplayBlock::DisplayBlock(void) {
-
+	std::cout << "Creating a DisplayBlock" << std::endl;
 }
 
 
 DisplayBlock::~DisplayBlock(void) {
-	this->_fields.clear();
-	std::cout << "Here" << std::endl;
+	std::cout << "Destroying a DisplayBlock" << std::endl;
 }
 
 
 void										DisplayBlock::addField(AField *field)
 {
-	this->_fields.push_back(field);
+	(this->_fields).push_back(field);
 }
 
-std::vector<AField*>				DisplayBlock::getFields(void) const
+std::deque<AField*>				DisplayBlock::getFields(void) const
 {
 	return this->_fields;
 }
