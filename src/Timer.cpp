@@ -17,31 +17,31 @@ Timer & Timer::operator=(Timer const & rhs) {
 }
 
 void	Timer::start(void) {
-	this->_time = Timer::get_millis_time();
+	this->_time = Timer::get_micros_time();
 }
 void	Timer::restart(void) {
-	this->_time = Timer::get_millis_time();
+	this->_time = Timer::get_micros_time();
 }
 void	Timer::stop(void) {
 	this->_time = 0;
 }
 
-long	Timer::getDiffAsMillis(void) const {
-	return (Timer::get_millis_time() - this->_time);
+unsigned long	Timer::getDiffAsMillis(void) const {
+	return (Timer::get_millis_time() - (this->_time / 1000));
 }
 
-long	Timer::getDiffAsMicros(void) const {
+unsigned long	Timer::getDiffAsMicros(void) const {
 	return (Timer::get_micros_time() - this->_time);
 }
 
-long	Timer::get_millis_time(void) {
+unsigned long	Timer::get_millis_time(void) {
 	timeval tim;
 	gettimeofday(&tim, NULL);
-	return ((tim.tv_sec * 1000) + (tim.tv_usec / 1000));
+	return (tim.tv_sec * 1000 + tim.tv_usec / 1000);
 }
 
-long	Timer::get_micros_time(void) {
+unsigned long	Timer::get_micros_time(void) const{
 	timeval tim;
 	gettimeofday(&tim, NULL);
-	return (tim.tv_usec);
+	return (tim.tv_sec * 1000000 + tim.tv_usec);
 }

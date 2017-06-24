@@ -16,13 +16,13 @@ public:
 	void	restart(void);
 	void	stop(void);
 
-	long	getDiffAsMillis(void) const;
-	long	getDiffAsMicros(void) const;
+	unsigned long	getDiffAsMillis(void) const;
+	unsigned long	getDiffAsMicros(void) const;
 
-	static long	get_millis_time(void);
-	static long	get_micros_time(void);
+	static unsigned long	get_millis_time(void);
+	unsigned long	get_micros_time(void) const;
 private:
-	long	_time;
+	unsigned long	_time;
 };
 
 #endif

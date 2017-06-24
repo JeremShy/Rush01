@@ -18,6 +18,9 @@ int main() {
 	std::cout << "//////////////////////////////////////////" << std::endl;
 
 	CPUModule d;
-	sleep(10);
+	sleep(1);
 	d.getDisplayInfo();
+
+	MemModule e;
+	e.getDisplayInfo();
 }

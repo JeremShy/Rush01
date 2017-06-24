@@ -6,9 +6,20 @@
 #include <sstream>
 #include <time.h>
 #include <Timer.hpp>
+#include <TextField.hpp>
+#include <mach/mach.h>
 
 CPUModule::CPUModule(void) {
 	_timer.start();
+	host_cpu_load_info_data_t stat;
+	mach_msg_type_number_t count = HOST_CPU_LOAD_INFO_COUNT;
+	mach_port_t myHost = mach_host_self();
+
+	host_statistics(myHost, HOST_CPU_LOAD_INFO, reinterpret_cast<host_info_t>(&stat), &count);
+	this->_oldUser = stat.cpu_ticks[CPU_STATE_USER];
+	this->_oldSystem = stat.cpu_ticks[CPU_STATE_SYSTEM];
+	this->_oldIdle = stat.cpu_ticks[CPU_STATE_IDLE];
+	this->_oldAll = _oldUser + _oldSystem + _oldIdle;
 }
 
 CPUModule::CPUModule(CPUModule const & src) {
@@ -68,21 +79,60 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 	std::string cpu_frequency(ss.str());
 	std::cout << "CPU Clock speed : " << cpu_frequency << std::endl;
 
-	clock_t t = clock();
-	clock_t clock_elapsed = t - _old_clock_time;
-	_old_clock_time = t;
-	clock_t wall_elapsed = _timer.getDiffAsMicros();
-	_timer.restart();
+	host_cpu_load_info_data_t stat;
+	mach_msg_type_number_t count = HOST_CPU_LOAD_INFO_COUNT;
+	mach_port_t myHost = mach_host_self();
 
-	std::cout << "clock_elapsed : " << clock_elapsed << std::endl;
-	std::cout << "wall_elapsed  : " << wall_elapsed << std::endl;
-	std::cout << "CLOCK PER S : " << CLOCKS_PER_SEC << std::endl;
+	host_statistics(myHost, HOST_CPU_LOAD_INFO, reinterpret_cast<host_info_t>(&stat), &count);
 
-	double percentage = static_cast<double>(static_cast<double>(clock_elapsed) / static_cast<double>(wall_elapsed) / static_cast<double>(logical_nbr)) * 100.0;
+
+	DisplayBlock ret;
+	std::cout << "state user : " << stat.cpu_ticks[CPU_STATE_USER] << std::endl;
+	std::cout << "state system : " << stat.cpu_ticks[CPU_STATE_SYSTEM] << std::endl;
+	std::cout << "state nice : " << stat.cpu_ticks[CPU_STATE_NICE] << std::endl;
+	std::cout << "state idle : " << stat.cpu_ticks[CPU_STATE_IDLE] << std::endl;
+	double user = stat.cpu_ticks[CPU_STATE_USER];
+	double system = stat.cpu_ticks[CPU_STATE_SYSTEM];
+	double idle = stat.cpu_ticks[CPU_STATE_IDLE];
+	double all = user + system + idle;
+
+	double	user_diff = user - this->_oldUser;
+	double	system_diff = system - this->_oldSystem;
+	double	idle_diff = idle - this->_oldIdle;
+	double	all_diff = all - this->_oldAll;
+
+	double p_user = (user_diff / all_diff) * 100.0;
+	double p_system = (system_diff / all_diff) * 100.0;
+	double p_idle = (idle_diff / all_diff) * 100.0;
+
+	this->_oldUser = user;
+	this->_oldSystem = system;
+	this->_oldIdle = idle;
+	this->_oldAll = all;
+
+
 	ss.str("");
-	ss << percentage << "%";
-	std::string cpu_usage_percentage(ss.str());
-	std::cout << "cpu_usage_percentage " << cpu_usage_percentage <<  std::endl;
+	ss << p_user << "%";
+	std::string sp_user = ss.str();
 
+	ss.str("");
+	ss << p_system << "%";
+	std::string sp_system = ss.str();
 
+	ss.str("");
+	ss << p_idle << "%";
+	std::string sp_idle = ss.str();
+
+	std::cout << "sp_user : " << sp_user << std::endl;
+	std::cout << "sp_system : " << sp_system << std::endl;
+	std::cout << "sp_idle : " << sp_idle << std::endl;
+
+	ret.addField(new TextField(cpu_brand_string, 25));
+	ret.addField(new TextField("Logical cpu number: " + cpu_nbr_logical, 25));
+	ret.addField(new TextField("physical cpu number: " + cpu_nbr_physical, 25));
+	ret.addField(new TextField("Frequency: " + cpu_frequency, 25));
+	ret.addField(new TextField("Usage user : " + sp_user, 25));
+	ret.addField(new TextField("Usage system : " + sp_system, 25));
+	ret.addField(new TextField("Usage idle : " + sp_idle, 25));
+	return (ret);
 }

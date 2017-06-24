@@ -19,5 +19,9 @@ public:
 private:
 	Timer _timer;
 	clock_t	_old_clock_time;
+	double _oldUser;
+	double _oldSystem;
+	double _oldIdle;
+	double _oldAll;
 };
 #endif

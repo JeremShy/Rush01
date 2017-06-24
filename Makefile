@@ -12,7 +12,8 @@ FILES					= main \
 								 AField \
 								 TextField \
 								 CPUModule \
-								 Timer
+								 Timer \
+								 MemModule
 SRC						= $(addprefix src/, $(addsuffix .cpp, $(FILES)))
 OBJ						= $(addprefix obj/, $(addsuffix .o, $(FILES)))
 LIB_SDL				= SDL

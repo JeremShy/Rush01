@@ -10,5 +10,6 @@
 #include <OsInfoModule.hpp>
 #include <TimeModule.hpp>
 #include <CPUModule.hpp>
+#include <MemModule.hpp>
 
 #endif
