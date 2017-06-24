@@ -2,12 +2,13 @@
 # define TEXTFIELD_HPP
 
 # include <string>
+# include <AField.hpp>
 
-class TextField : public Afield
+class TextField : public AField
 {
 public:
 	TextField();
-	TextField(std::string text, unsigned int size)
+	TextField(std::string text, unsigned int size);
 	~TextField();
 	std::string				getText(void) const;
 	unsigned int			getSize(void) const;
