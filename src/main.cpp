@@ -6,4 +6,7 @@ int main() {
 
 	OsInfoModule b;
 	b.getDisplayInfo();
+
+	TimeModule c;
+	c.getDisplayInfo();
 }

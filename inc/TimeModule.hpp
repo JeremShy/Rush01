@@ -3,6 +3,7 @@
 
 # include <string>
 # include <iostream>
+# include <DisplayBlock.hpp>
 
 class TimeModule {
 public:
@@ -11,6 +12,8 @@ public:
 	~TimeModule(void);
 
 	TimeModule & operator=(TimeModule const & rhs);
+
+	DisplayBlock getDisplayInfo(void) const;
 
 private:
 };

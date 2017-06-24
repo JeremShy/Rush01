@@ -1,4 +1,4 @@
-#include "OsInfoModule.hpp"
+#include <OsInfoModule.hpp>
 #include <sys/utsname.h>
 
 OsInfoModule::OsInfoModule(void) {

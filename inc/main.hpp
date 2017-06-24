@@ -8,5 +8,6 @@
 #include <HostnameModule.hpp>
 #include <IMonitorModule.hpp>
 #include <OsInfoModule.hpp>
+#include <TimeModule.hpp>
 
 #endif
