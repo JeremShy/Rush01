@@ -4,6 +4,7 @@
 # include <string>
 # include <iostream>
 # include <IMonitorModule.hpp>
+# include <Timer.hpp>
 
 class CPUModule : public IMonitorModule{
 public:
@@ -13,8 +14,10 @@ public:
 
 	CPUModule & operator=(CPUModule const & rhs);
 
-	DisplayBlock getDisplayInfo(void) const;
+	DisplayBlock getDisplayInfo(void);
 
 private:
+	Timer _timer;
+	clock_t	_old_clock_time;
 };
 #endif

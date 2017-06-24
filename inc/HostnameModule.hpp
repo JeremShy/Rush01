@@ -13,7 +13,7 @@ public:
 
 	HostnameModule & operator=(HostnameModule const & rhs);
 
-	DisplayBlock getDisplayInfo(void) const;
+	DisplayBlock getDisplayInfo(void);
 
 private:
 };

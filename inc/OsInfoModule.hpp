@@ -13,7 +13,7 @@ public:
 
 	OsInfoModule & operator=(OsInfoModule const & rhs);
 
-	DisplayBlock getDisplayInfo(void) const;
+	DisplayBlock getDisplayInfo(void);
 
 private:
 };

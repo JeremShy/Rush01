@@ -19,7 +19,7 @@ TimeModule & TimeModule::operator=(TimeModule const & rhs) {
 	return (*this);
 }
 
-DisplayBlock TimeModule::getDisplayInfo(void) const {
+DisplayBlock TimeModule::getDisplayInfo(void) {
 	time_t t = time(NULL);
 
 	struct tm *now = localtime(&t);

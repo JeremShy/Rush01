@@ -13,7 +13,7 @@ public:
 
 	TimeModule & operator=(TimeModule const & rhs);
 
-	DisplayBlock getDisplayInfo(void) const;
+	DisplayBlock getDisplayInfo(void);
 
 private:
 };

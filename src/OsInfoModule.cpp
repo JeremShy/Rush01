@@ -17,7 +17,7 @@ OsInfoModule & OsInfoModule::operator=(OsInfoModule const & rhs) {
 	return (*this);
 }
 
-DisplayBlock OsInfoModule::getDisplayInfo(void) const {
+DisplayBlock OsInfoModule::getDisplayInfo(void) {
 	struct utsname vuname;
 
 	uname(&vuname);

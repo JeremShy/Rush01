@@ -7,7 +7,7 @@
 
 class IMonitorModule {
 public:
-	virtual DisplayBlock getDisplayInfo(void) const = 0;
+	virtual DisplayBlock getDisplayInfo(void) = 0;
 
 private:
 };

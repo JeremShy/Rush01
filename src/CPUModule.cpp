@@ -5,9 +5,10 @@
 #include <stdlib.h>
 #include <sstream>
 #include <time.h>
+#include <Timer.hpp>
 
 CPUModule::CPUModule(void) {
-
+	_timer.start();
 }
 
 CPUModule::CPUModule(CPUModule const & src) {
@@ -22,7 +23,7 @@ CPUModule & CPUModule::operator=(CPUModule const & rhs) {
 	return (*this);
 }
 
-DisplayBlock CPUModule::getDisplayInfo(void) const {
+DisplayBlock CPUModule::getDisplayInfo(void) {
 	char buffer[512];
 	size_t		size;
 
@@ -34,18 +35,20 @@ DisplayBlock CPUModule::getDisplayInfo(void) const {
 	std::string cpu_brand_string(buffer);
 	std::cout << "CPU Brand String: " << cpu_brand_string << std::endl;
 
-	int32_t intbuffer;
-	size = sizeof(intbuffer);
-	if (sysctlbyname("hw.logicalcpu", &intbuffer, &size, NULL, 0) == -1)
+	int32_t logical_nbr;
+	size = sizeof(logical_nbr);
+	if (sysctlbyname("hw.logicalcpu", &logical_nbr, &size, NULL, 0) == -1)
 	{
 		//TODO: Handle Error.
 	}
 	std::stringstream ss;
-	ss << intbuffer;
+	ss << logical_nbr;
 	std::string cpu_nbr_logical(ss.str());
 	std::cout << "Number of logical cpu : " << cpu_nbr_logical << std::endl;
 
-	if (sysctlbyname("hw.physicalcpu", &intbuffer, &size, NULL, 0) == -1)
+
+	int32_t intbuffer;
+	if (sysctlbyname("hw.physicalcpu", &logical_nbr, &size, NULL, 0) == -1)
 	{
 		//TODO: Handle Error.
 	}
@@ -64,5 +67,22 @@ DisplayBlock CPUModule::getDisplayInfo(void) const {
 	ss << (static_cast<double>(intbuffer2) / 1e9) << "GHz";
 	std::string cpu_frequency(ss.str());
 	std::cout << "CPU Clock speed : " << cpu_frequency << std::endl;
+
+	clock_t t = clock();
+	clock_t clock_elapsed = t - _old_clock_time;
+	_old_clock_time = t;
+	clock_t wall_elapsed = _timer.getDiffAsMicros();
+	_timer.restart();
+
+	std::cout << "clock_elapsed : " << clock_elapsed << std::endl;
+	std::cout << "wall_elapsed  : " << wall_elapsed << std::endl;
+	std::cout << "CLOCK PER S : " << CLOCKS_PER_SEC << std::endl;
+
+	double percentage = static_cast<double>(static_cast<double>(clock_elapsed) / static_cast<double>(wall_elapsed) / static_cast<double>(logical_nbr)) * 100.0;
+	ss.str("");
+	ss << percentage << "%";
+	std::string cpu_usage_percentage(ss.str());
+	std::cout << "cpu_usage_percentage " << cpu_usage_percentage <<  std::endl;
+
 
 }

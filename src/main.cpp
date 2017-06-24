@@ -1,4 +1,5 @@
 #include <main.hpp>
+#include <unistd.h>
 
 int main() {
 	HostnameModule a;
@@ -17,5 +18,6 @@ int main() {
 	std::cout << "//////////////////////////////////////////" << std::endl;
 
 	CPUModule d;
+	sleep(10);
 	d.getDisplayInfo();
 }

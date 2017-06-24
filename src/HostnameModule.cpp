@@ -17,7 +17,7 @@ HostnameModule & HostnameModule::operator=(HostnameModule const & rhs) {
 	return (*this);
 }
 
-DisplayBlock HostnameModule::getDisplayInfo(void) const{
+DisplayBlock HostnameModule::getDisplayInfo(void){
 	char hostnamech[512];
 	char *usernamech;
 
