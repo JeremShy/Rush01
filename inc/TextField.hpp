@@ -1,6 +1,8 @@
 #ifndef TEXTFIELD_HPP
 # define TEXTFIELD_HPP
 
+# include <string>
+
 class TextField : public Afield
 {
 public:
