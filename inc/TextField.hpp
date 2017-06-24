@@ -9,13 +9,13 @@ class TextField : public AField
 public:
 	TextField();
 	TextField(std::string text, unsigned int size);
+	TextField(TextField const & textfield);
 	~TextField();
 	std::string				getText(void) const;
 	unsigned int			getSize(void) const;
 	void							setText(std::string const text);
 	void							setSize(unsigned int const size);
 private:
-	TextField(TextField const & textfield);
 	TextField		& operator=(TextField const & textfield);
 
 	std::string				_text;

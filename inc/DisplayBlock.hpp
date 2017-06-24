@@ -3,19 +3,19 @@
 
 # include <string>
 # include <iostream>
-# include <list>
+# include <vector>
 # include "AField.hpp"
 
 class DisplayBlock {
 public:
 	DisplayBlock(void);
 	~DisplayBlock(void);
-	void										addField(AField const & field);
-	std::list<AField>				getFields(void) const;
+	void												addField(AField *field);
+	std::vector<AField*>				getFields(void) const;
+	DisplayBlock(DisplayBlock const & src);
 
 private:
-	DisplayBlock(DisplayBlock const & src);
 	DisplayBlock & operator=(DisplayBlock const & rhs);
-	std::list<AField>				_fields;
+	std::vector<AField*>				_fields;
 };
 #endif

@@ -1,5 +1,6 @@
-#include "HostnameModule.hpp"
+#include <HostnameModule.hpp>
 #include <unistd.h>
+#include <TextField.hpp>
 
 HostnameModule::HostnameModule(void) {
 
@@ -34,4 +35,8 @@ DisplayBlock HostnameModule::getDisplayInfo(void){
 	std::string hostname(hostnamech);
 
 	std::cout << "username : " << username << std::endl << "hostname : " << hostname << std::endl;
+	DisplayBlock ret;
+	ret.addField(new TextField(username, 25));
+	ret.addField(new TextField(hostname, 25));
+	return (ret);
 }

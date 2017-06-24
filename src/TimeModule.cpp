@@ -1,4 +1,5 @@
 #include <TimeModule.hpp>
+#include <TextField.hpp>
 #include <ctime>
 #include <sstream>
 #include <iomanip>
@@ -35,5 +36,10 @@ DisplayBlock TimeModule::getDisplayInfo(void) {
 	date = sdate.str();
 	heure = sheure.str();
 
+	DisplayBlock ret;
+	ret.addField(new TextField("Date: " + date, 25));
+	ret.addField(new TextField("Heure: " + heure, 25));
+
 	std::cout << "date: " << date << std::endl << "heure: " << heure << std::endl;
+	return (ret);
 }

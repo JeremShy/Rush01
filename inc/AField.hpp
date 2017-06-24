@@ -5,7 +5,7 @@ class AField
 {
 public:
 	AField();
-	~AField();
+	virtual ~AField();
 	AField		& operator=(AField const & afield);
 	AField(AField const & afield);
 private:

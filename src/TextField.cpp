@@ -25,11 +25,12 @@ void							TextField::setSize(unsigned int const size) {
 	this->_size = size;
 }
 
-//PRIVATE
 TextField::TextField(TextField const & textfield) {
 	this->_text = textfield._text;
 	this->_size = textfield._size;
 }
+
+//PRIVATE
 
 TextField & TextField::operator=(TextField const & textfield) {
 	this->_text = textfield.getText();
