@@ -8,7 +8,10 @@ FILES					= main \
 								 HostnameModule \
 								 DisplayBlock \
 								 OsInfoModule \
-								 TimeModule
+								 TimeModule \
+								 AField \
+								 TextField \
+								 CPUModule
 SRC						= $(addprefix src/, $(addsuffix .cpp, $(FILES)))
 OBJ						= $(addprefix obj/, $(addsuffix .o, $(FILES)))
 LIB_SDL				= SDL

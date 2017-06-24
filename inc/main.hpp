@@ -9,5 +9,6 @@
 #include <IMonitorModule.hpp>
 #include <OsInfoModule.hpp>
 #include <TimeModule.hpp>
+#include <CPUModule.hpp>
 
 #endif
