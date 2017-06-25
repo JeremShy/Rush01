@@ -2,34 +2,37 @@
 #include <unistd.h>
 #include <ncurses.h>
 #include <deque>
+#include <fstream>
 
 int main() {
-	std::deque<DisplayBlock> vec;
+	std::fstream pouet("log.log", std::fstream::out | std::fstream::trunc);
+	pouet.close();
+	std::deque<DisplayBlock> dec;
 
 	HostnameModule a;
-	vec.push_back(a.getDisplayInfo());
+	dec.push_back(a.getDisplayInfo());
 
 	std::cout << "-------------------------------------" << std::endl;
 
 	OsInfoModule b;
-	vec.push_back(b.getDisplayInfo());
+	dec.push_back(b.getDisplayInfo());
 
 	std::cout << "-------------------------------------" << std::endl;
 
 	TimeModule c;
-	vec.push_back(c.getDisplayInfo());
+	dec.push_back(c.getDisplayInfo());
 
 	std::cout << "-------------------------------------" << std::endl;
 
 	// CPUModule d;
 	// sleep(1);
-	// vec.push_back(d.getDisplayInfo());
+	// dec.push_back(d.getDisplayInfo());
 
 	MemModule e;
-	vec.push_back(e.getDisplayInfo());
+	dec.push_back(e.getDisplayInfo());
 
 	NcurseDisplay nc;
-	nc.display(vec);
+	nc.display(dec);
 	refresh();
 	while(1);
 }

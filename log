@@ -1,150 +1,233 @@
-==26525== Memcheck, a memory error detector
-==26525== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==26525== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
-==26525== Command: ./GKrellM
-==26525== 
-==26525== Conditional jump or move depends on uninitialised value(s)
-==26525==    at 0x7FFF5FC23DC7: bcmp (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
-==26525== 
-==26525== Use of uninitialised value of size 8
-==26525==    at 0x7FFF5FC23DDF: bcmp (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
-==26525== 
-==26525== Use of uninitialised value of size 8
-==26525==    at 0x7FFF5FC23DE4: bcmp (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
-==26525== 
-==26525== Conditional jump or move depends on uninitialised value(s)
-==26525==    at 0x7FFF5FC11AF7: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
-==26525==    by 0x7FFF5FC0EA4D: ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&) (in /usr/lib/dyld)
-==26525== 
---26525-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option
---26525-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option (repeated 2 times)
---26525-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option (repeated 4 times)
---26525-- UNKNOWN host message [id 216, to mach_host_self(), reply 0x60f]
-==26525== Invalid read of size 8
-==26525==    at 0x10001EDBC: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:60)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525==  Address 0x10b779080 is 0 bytes inside a block of size 4,096 free'd
-==26525==    at 0x100039AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
-==26525==    by 0x10000B424: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (new:177)
-==26525==    by 0x10000B354: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
-==26525==    by 0x10000AE74: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
-==26525==    by 0x10001EC5F: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:53)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525==  Block was alloc'd at
-==26525==    at 0x100039671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
-==26525==    by 0x10021B7DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
-==26525==    by 0x1000117EF: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (new:169)
-==26525==    by 0x10000F947: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
-==26525==    by 0x10000F5A6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
-==26525==    by 0x10000B1AC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
-==26525==    by 0x10000B17B: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
-==26525==    by 0x10001EC0E: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:53)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525== 
-==26525== Invalid read of size 8
-==26525==    at 0x10001F1CB: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (deque:299)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525==  Address 0x10b779030 is 0 bytes inside a block of size 8 free'd
-==26525==    at 0x100039AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
-==26525==    by 0x100001F13: std::__1::__split_buffer<AField**, std::__1::allocator<AField**> >::~__split_buffer() (new:177)
-==26525==    by 0x100001AF4: std::__1::__split_buffer<AField**, std::__1::allocator<AField**> >::~__split_buffer() (__split_buffer:340)
-==26525==    by 0x10000B441: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (deque:1083)
-==26525==    by 0x10000B354: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
-==26525==    by 0x10000AE74: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
-==26525==    by 0x10001EC5F: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:53)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525==  Block was alloc'd at
-==26525==    at 0x100039671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
-==26525==    by 0x10021B7DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
-==26525==    by 0x1000059B9: std::__1::__split_buffer<AField**, std::__1::allocator<AField**>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<AField**>&) (new:169)
-==26525==    by 0x100004FBC: std::__1::__split_buffer<AField**, std::__1::allocator<AField**>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<AField**>&) (__split_buffer:310)
-==26525==    by 0x10001178A: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (deque:2494)
-==26525==    by 0x10000F947: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
-==26525==    by 0x10000F5A6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
-==26525==    by 0x10000B1AC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
-==26525==    by 0x10000B17B: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
-==26525==    by 0x10001EC0E: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:53)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525== 
-==26525== Invalid read of size 8
-==26525==    at 0x10001EDBF: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:60)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
-==26525== 
-==26525== 
-==26525== Process terminating with default action of signal 11 (SIGSEGV)
-==26525==  Access not within mapped region at address 0x0
-==26525==    at 0x10001EDBF: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:60)
-==26525==    by 0x10001E796: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:30)
-==26525==    by 0x100001053: main (main.cpp:32)
-==26525==  If you believe this happened as a result of a stack
-==26525==  overflow in your program's main thread (unlikely but
-==26525==  possible), you can try to increase the size of the
-==26525==  main thread stack using the --main-stacksize= flag.
-==26525==  The main thread stack size used in this run was 8388608.
-==26525== 
-==26525== HEAP SUMMARY:
-==26525==     in use at exit: 1,363,199 bytes in 1,208 blocks
-==26525==   total heap usage: 2,209 allocs, 1,001 frees, 2,551,795 bytes allocated
-==26525== 
-==26525== LEAK SUMMARY:
-==26525==    definitely lost: 4,096 bytes in 1 blocks
-==26525==    indirectly lost: 0 bytes in 0 blocks
-==26525==      possibly lost: 17,848 bytes in 135 blocks
-==26525==    still reachable: 98,040 bytes in 599 blocks
-==26525==         suppressed: 1,243,215 bytes in 473 blocks
-==26525== Rerun with --leak-check=full to see details of leaked memory
-==26525== 
-==26525== For counts of detected and suppressed errors, rerun with: -v
-==26525== Use --track-origins=yes to see where uninitialised values come from
-==26525== ERROR SUMMARY: 30 errors from 7 contexts (suppressed: 0 from 0)
+==71440== Memcheck, a memory error detector
+==71440== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==71440== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==71440== Command: ./GKrellM
+==71440== 
+==71440== Conditional jump or move depends on uninitialised value(s)
+==71440==    at 0x7FFF5FC23DC7: bcmp (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==71440== 
+==71440== Use of uninitialised value of size 8
+==71440==    at 0x7FFF5FC23DDF: bcmp (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==71440== 
+==71440== Use of uninitialised value of size 8
+==71440==    at 0x7FFF5FC23DE4: bcmp (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC11AF4: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==71440== 
+==71440== Conditional jump or move depends on uninitialised value(s)
+==71440==    at 0x7FFF5FC11AF7: ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC16D6A: ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC10C5E: ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC038C2: dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC085BF: dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC082DF: dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC08044: dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC07799: dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0347A: dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0315E: dyld::load(char const*, dyld::LoadContext const&) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC088F9: dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*) (in /usr/lib/dyld)
+==71440==    by 0x7FFF5FC0EA4D: ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&) (in /usr/lib/dyld)
+==71440== 
+--71440-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option
+--71440-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option (repeated 2 times)
+--71440-- UNKNOWN mach_msg unhandled MACH_SEND_TRAILER option (repeated 4 times)
+--71440-- UNKNOWN host message [id 216, to mach_host_self(), reply 0x60f]
+==71440== Invalid read of size 8
+==71440==    at 0x10002279B: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:59)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Address 0x10bba2ad0 is 0 bytes inside a block of size 4,096 free'd
+==71440==    at 0x100040AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x10000F064: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (new:177)
+==71440==    by 0x10000EF94: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x10000EAB4: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x100022618: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:54)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Block was alloc'd at
+==71440==    at 0x100040671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x1002227DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==71440==    by 0x10001542F: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (new:169)
+==71440==    by 0x100013587: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
+==71440==    by 0x1000131E6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
+==71440==    by 0x10000EDEC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
+==71440==    by 0x10000EDBB: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
+==71440==    by 0x1000225C7: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:54)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440== 
+==71440== Invalid read of size 8
+==71440==    at 0x1000227FF: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:62)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Address 0x10bba2ad0 is 0 bytes inside a block of size 4,096 free'd
+==71440==    at 0x100040AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x10000F064: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (new:177)
+==71440==    by 0x10000EF94: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x10000EAB4: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x100022618: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:54)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Block was alloc'd at
+==71440==    at 0x100040671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x1002227DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==71440==    by 0x10001542F: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (new:169)
+==71440==    by 0x100013587: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
+==71440==    by 0x1000131E6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
+==71440==    by 0x10000EDEC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
+==71440==    by 0x10000EDBB: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
+==71440==    by 0x1000225C7: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:54)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440== 
+==71440== Invalid read of size 8
+==71440==    at 0x1000229FC: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (deque:299)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Address 0x10bba2a80 is 0 bytes inside a block of size 8 free'd
+==71440==    at 0x100040AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x100002733: std::__1::__split_buffer<AField**, std::__1::allocator<AField**> >::~__split_buffer() (new:177)
+==71440==    by 0x100002314: std::__1::__split_buffer<AField**, std::__1::allocator<AField**> >::~__split_buffer() (__split_buffer:340)
+==71440==    by 0x10000F081: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (deque:1083)
+==71440==    by 0x10000EF94: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x10000EAB4: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x100022618: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:54)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Block was alloc'd at
+==71440==    at 0x100040671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x1002227DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==71440==    by 0x100009629: std::__1::__split_buffer<AField**, std::__1::allocator<AField**>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<AField**>&) (new:169)
+==71440==    by 0x100008C2C: std::__1::__split_buffer<AField**, std::__1::allocator<AField**>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<AField**>&) (__split_buffer:310)
+==71440==    by 0x1000153CA: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (deque:2494)
+==71440==    by 0x100013587: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
+==71440==    by 0x1000131E6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
+==71440==    by 0x10000EDEC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
+==71440==    by 0x10000EDBB: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
+==71440==    by 0x1000225C7: NcurseDisplay::getDisplayBlockSize(DisplayBlock) const (NcurseDisplay.cpp:54)
+==71440==    by 0x100022021: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:31)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440== 
+==71440== Invalid read of size 8
+==71440==    at 0x1000232AE: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Address 0x10bbac0d0 is 0 bytes inside a block of size 4,096 free'd
+==71440==    at 0x100040AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x10000F064: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (new:177)
+==71440==    by 0x10000EF94: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x10000EAB4: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x100023194: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Block was alloc'd at
+==71440==    at 0x100040671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x1002227DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==71440==    by 0x10001542F: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (new:169)
+==71440==    by 0x100013587: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
+==71440==    by 0x1000131E6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
+==71440==    by 0x10000EDEC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
+==71440==    by 0x10000EDBB: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
+==71440==    by 0x10002312E: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440== 
+==71440== Invalid read of size 8
+==71440==    at 0x100023312: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:96)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Address 0x10bbac0d0 is 0 bytes inside a block of size 4,096 free'd
+==71440==    at 0x100040AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x10000F064: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (new:177)
+==71440==    by 0x10000EF94: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x10000EAB4: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x100023194: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Block was alloc'd at
+==71440==    at 0x100040671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x1002227DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==71440==    by 0x10001542F: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (new:169)
+==71440==    by 0x100013587: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
+==71440==    by 0x1000131E6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
+==71440==    by 0x10000EDEC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
+==71440==    by 0x10000EDBB: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
+==71440==    by 0x10002312E: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440== 
+==71440== Invalid read of size 8
+==71440==    at 0x1000234A0: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (deque:299)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Address 0x10bbac080 is 0 bytes inside a block of size 8 free'd
+==71440==    at 0x100040AB5: free (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x100002733: std::__1::__split_buffer<AField**, std::__1::allocator<AField**> >::~__split_buffer() (new:177)
+==71440==    by 0x100002314: std::__1::__split_buffer<AField**, std::__1::allocator<AField**> >::~__split_buffer() (__split_buffer:340)
+==71440==    by 0x10000F081: std::__1::__deque_base<AField*, std::__1::allocator<AField*> >::~__deque_base() (deque:1083)
+==71440==    by 0x10000EF94: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x10000EAB4: std::__1::deque<AField*, std::__1::allocator<AField*> >::~deque() (deque:1160)
+==71440==    by 0x100023194: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440==  Block was alloc'd at
+==71440==    at 0x100040671: malloc (in /Users/jcamhi/.brew/Cellar/valgrind/3.12.0/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==71440==    by 0x1002227DD: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==71440==    by 0x100009629: std::__1::__split_buffer<AField**, std::__1::allocator<AField**>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<AField**>&) (new:169)
+==71440==    by 0x100008C2C: std::__1::__split_buffer<AField**, std::__1::allocator<AField**>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<AField**>&) (__split_buffer:310)
+==71440==    by 0x1000153CA: std::__1::deque<AField*, std::__1::allocator<AField*> >::__add_back_capacity(unsigned long) (deque:2494)
+==71440==    by 0x100013587: _ZNSt3__15dequeIP6AFieldNS_9allocatorIS2_EEE8__appendINS_16__deque_iteratorIS2_PKS2_RS8_PKS9_lLl512EEEEEvT_SE_PNS_9enable_ifIXsr21__is_forward_iteratorISE_EE5valueEvE4typeE (deque:2211)
+==71440==    by 0x1000131E6: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1484)
+==71440==    by 0x10000EDEC: std::__1::deque<AField*, std::__1::allocator<AField*> >::deque(std::__1::deque<AField*, std::__1::allocator<AField*> > const&) (deque:1483)
+==71440==    by 0x10000EDBB: DisplayBlock::getFields() const (DisplayBlock.cpp:21)
+==71440==    by 0x10002312E: NcurseDisplay::printDisplayBlock(DisplayBlock, int, int) const (NcurseDisplay.cpp:92)
+==71440==    by 0x1000222B3: NcurseDisplay::display(std::__1::deque<DisplayBlock, std::__1::allocator<DisplayBlock> >) const (NcurseDisplay.cpp:41)
+==71440==    by 0x1000017B5: main (main.cpp:35)
+==71440== 
+==71440== 
+==71440== HEAP SUMMARY:
+==71440==     in use at exit: 3,338,479 bytes in 1,673 blocks
+==71440==   total heap usage: 2,838 allocs, 1,165 frees, 4,793,515 bytes allocated
+==71440== 
+==71440== LEAK SUMMARY:
+==71440==    definitely lost: 0 bytes in 0 blocks
+==71440==    indirectly lost: 0 bytes in 0 blocks
+==71440==      possibly lost: 17,840 bytes in 135 blocks
+==71440==    still reachable: 2,077,400 bytes in 1,064 blocks
+==71440==         suppressed: 1,243,239 bytes in 474 blocks
+==71440== Rerun with --leak-check=full to see details of leaked memory
+==71440== 
+==71440== For counts of detected and suppressed errors, rerun with: -v
+==71440== Use --track-origins=yes to see where uninitialised values come from
+==71440== ERROR SUMMARY: 92 errors from 10 contexts (suppressed: 0 from 0)
