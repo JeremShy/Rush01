@@ -6,7 +6,7 @@
 TextField::TextField() {}
 
 TextField::TextField(std::string text, unsigned int size) : _text(text), _size(size) {
-	std::cout << "Creating a TextField with text: " << _text << std::endl;
+	// std::cout << "Creating a TextField with text: " << _text << std::endl;
 }
 
 TextField::~TextField() {
@@ -34,31 +34,35 @@ TextField::TextField(TextField const & textfield) {
 	this->_size = textfield._size;
 }
 
-std::vector<int>	TextField::getFieldSizeForNcurse(void) {
-	std::cout << "In TextField::getFieldSizeForNcurse" << std::endl;
+std::vector<int>	TextField::getFieldSizeForNcurse(void) const
+{
+	// std::cout << "In TextField::getFieldSizeForNcurse" << std::endl;
 	std::vector<int> vec(2,0);
 
-	std::cout << "Trying to get field size : field : " << this->_text << std::endl;
+	// std::cout << "Trying to get field size : field : " << this->_text << std::endl;
 	vec[1] = ((this->_text).length()) / 30;
-	std::cout << "ici" << std::endl;
+	// std::cout << "ici" << std::endl;
 	if (vec[1] > 0) {
 		vec[0] = 30;
 	}
 	else {
 		vec[0] = this->_text.length();
 	}
-	std::cout << "Returning from getFieldSizeForNcurse" << std::endl;
+	// std::cout << "Returning from getFieldSizeForNcurse" << std::endl;
 	return (vec);
 }
 
-std::vector<int>	TextField::printFieldForNcurse(int x, int y)
+std::vector<int>	TextField::printFieldForNcurse(int x, int y) const
 {
 	std::vector<int> vec = this->getFieldSizeForNcurse();
 
 	int curx = x;
 	int cury = y;
 
-	for (std::string::iterator i = _text.begin(); i != _text.end(); i++) {
+	// std::cout << "------------------------------------------------------------trying to print " << _text << std::endl;
+
+	for (std::string::const_iterator i = _text.begin(); i != _text.end(); i++)
+	{
 		printCharAt(curx, cury, *i);
 		if (x >= 30) {
 			x = 0;

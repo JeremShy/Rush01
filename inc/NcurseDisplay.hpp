@@ -15,9 +15,9 @@ public:
 	NcurseDisplay & operator=(NcurseDisplay const & rhs);
 
 	void							display(std::deque<DisplayBlock>) const;
-	std::vector<int>	printDisplayBlock(DisplayBlock block, int x, int y) const;
+	std::vector<int>	printDisplayBlock(DisplayBlock const & block, int x, int y) const;
 	std::vector<int>	printField(AField *field, int x, int y) const;
-	std::vector<int>	getDisplayBlockSize(DisplayBlock block) const;
+	std::vector<int>	getDisplayBlockSize(DisplayBlock const & block) const;
 
 private:
 };
