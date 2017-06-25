@@ -7,7 +7,6 @@ NAME					=	GKrellM
 FILES					= AField \
 									CPUModule \
 									DisplayBlock \
-									HistogramField \
 									HostnameModule \
 									MemModule \
 									NcurseDisplay \
@@ -15,9 +14,10 @@ FILES					= AField \
 									TextField \
 									TimeModule \
 									Timer \
-									_test_histogramfield \
 									display \
 									main
+									# _test_histogramfield \
+									# HistogramField \
 									# SDLDisplay \
 									# customSDL \
 
@@ -29,7 +29,7 @@ PATH_SDL_IMG	= SDL2_image-2.0.1
 PATH_FREETYPE	= freetype-2.8
 PATH_SDL_TTF	= SDL2_ttf-2.0.14
 CMP						=	clang++
-INC =  -I inc -I $(LIB_SDL)/include -I $(LIB_SDL)/include/SDL2 -I $(LIB_SDL)/lib/ -I $(PATH_SDL_TTF)
+INC =  -I inc -I $(LIB_SDL)/include -I $(LIB_SDL)/include/SDL2 -I $(LIB_SDL)/lib/ -I $(PATH_SDL_TTF) -g
 SDL		=	`./$(LIB_SDL)/bin/sdl2-config --cflags --libs` -lSDL2_image -lncurses
 
 all: sdl $(NAME)

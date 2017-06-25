@@ -44,5 +44,4 @@ DisplayBlock MemModule::getDisplayInfo(void){
 	// ret.addField(new TextField("pages_active : " + pages_active, 25));
 	ret.addField(new TextField("mem_info : " + mem_info, 25));
 	return ret;
-
 }
