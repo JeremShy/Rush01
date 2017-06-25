@@ -4,7 +4,19 @@ ifeq ($(HOSTTYPE),)
 	HOSTTYPE := $(shell uname -m)_$(shell uname -s)
 endif
 NAME					=	GKrellM
-FILES					= main
+FILES					= AField \
+									CPUModule \
+									DisplayBlock \
+									HostnameModule \
+									MemModule \
+									NcurseDisplay \
+									OsInfoModule \
+									TextField \
+									TimeModule \
+									Timer \
+									display \
+									main
+
 SRC						= $(addprefix src/, $(addsuffix .cpp, $(FILES)))
 OBJ						= $(addprefix obj/, $(addsuffix .o, $(FILES)))
 LIB_SDL				= SDL
