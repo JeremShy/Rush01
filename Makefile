@@ -96,8 +96,8 @@ eclean: clean
 	@echo "\033[33;33m$(NAME) deleted\033[33;37m"
 
 fclean: eclean
-	@rm -rf $(LIB_SDL)
-	@echo "\033[33;33m$(LIB_SDL) deleted\033[33;37m"
+	@rm -rf $(SDL_DIR)
+	@echo "\033[33;33m$(SDL_DIR) deleted\033[33;37m"
 
 re: fclean all
 
