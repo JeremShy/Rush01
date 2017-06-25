@@ -72,7 +72,7 @@ $(LIBS_DIR)/libSDL2_image.a:
 	@tar -xf $(PATH_SDL_TTF).tar.gz
 	@rm -rf $(PATH_SDL_TTF).tar.gz
 	@echo "\033[32mCompiling $(PATH_TTF) ...\033[0m"
-	@cd $(PATH_SDL_TTF) && ./configure --with-freetype-prefix=`cd ../$(SDL_DIR) && pwd` --prefix=`cd ../$(SDL_DIR) && pwd` --with-sdl-prefix=`cd ../$(SDL_DIR) && pwd` && make -j 8 && make -j 8 install
+	export CFLAGS="-I `cd $(SDL_DIR)/include/freetype2 && pwd`" && export LDFLAGS="-L`cd $(LIBS_DIR) && pwd`" && env && cd $(PATH_SDL_TTF) && ./configure --with-freetype-prefix=`cd ../$(SDL_DIR) && pwd` --prefix=`cd ../$(SDL_DIR) && pwd` --with-sdl-prefix=`cd ../$(SDL_DIR) && pwd` && make -j 8 && make -j 8 install
 	@rm -rf $(PATH_SDL_TTF)
 
 $(NAME): obj $(OBJ)
