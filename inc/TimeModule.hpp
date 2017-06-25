@@ -4,8 +4,9 @@
 # include <string>
 # include <iostream>
 # include <DisplayBlock.hpp>
+# include <IMonitorModule.hpp>
 
-class TimeModule {
+class TimeModule : public IMonitorModule{
 public:
 	TimeModule(void);
 	TimeModule(TimeModule const & src);

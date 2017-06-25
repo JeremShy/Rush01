@@ -4,8 +4,9 @@
 # include <string>
 # include <iostream>
 # include <DisplayBlock.hpp>
+# include <IMonitorModule.hpp>
 
-class MemModule {
+class MemModule : public IMonitorModule{
 public:
 	MemModule(void);
 	MemModule(MemModule const & src);

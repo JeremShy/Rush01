@@ -3,7 +3,7 @@
 ifeq ($(HOSTTYPE),)
 	HOSTTYPE := $(shell uname -m)_$(shell uname -s)
 endif
-NAME					=	GKrellM
+NAME					=	ft_gkrellm
 FILES					= AField \
 									CPUModule \
 									DisplayBlock \

@@ -44,7 +44,7 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 		//TODO: Handle Error.
 	}
 	std::string cpu_brand_string(buffer);
-	std::cout << "CPU Brand String: " << cpu_brand_string << std::endl;
+	// std::cout << "CPU Brand String: " << cpu_brand_string << std::endl;
 
 	int32_t logical_nbr;
 	size = sizeof(logical_nbr);
@@ -55,7 +55,7 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 	std::stringstream ss;
 	ss << logical_nbr;
 	std::string cpu_nbr_logical(ss.str());
-	std::cout << "Number of logical cpu : " << cpu_nbr_logical << std::endl;
+	// std::cout << "Number of logical cpu : " << cpu_nbr_logical << std::endl;
 
 
 	int32_t intbuffer;
@@ -66,7 +66,7 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 	ss.str("");
 	ss << intbuffer;
 	std::string cpu_nbr_physical(ss.str());
-	std::cout << "Number of physical cpu : " << cpu_nbr_physical << std::endl;
+	// std::cout << "Number of physical cpu : " << cpu_nbr_physical << std::endl;
 
 	int64_t intbuffer2;
 	size = sizeof(int64_t);
@@ -77,7 +77,7 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 	ss.str("");
 	ss << (static_cast<double>(intbuffer2) / 1e9) << "GHz";
 	std::string cpu_frequency(ss.str());
-	std::cout << "CPU Clock speed : " << cpu_frequency << std::endl;
+	// std::cout << "CPU Clock speed : " << cpu_frequency << std::endl;
 
 	host_cpu_load_info_data_t stat;
 	mach_msg_type_number_t count = HOST_CPU_LOAD_INFO_COUNT;
@@ -87,10 +87,10 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 
 
 	DisplayBlock ret;
-	std::cout << "state user : " << stat.cpu_ticks[CPU_STATE_USER] << std::endl;
-	std::cout << "state system : " << stat.cpu_ticks[CPU_STATE_SYSTEM] << std::endl;
-	std::cout << "state nice : " << stat.cpu_ticks[CPU_STATE_NICE] << std::endl;
-	std::cout << "state idle : " << stat.cpu_ticks[CPU_STATE_IDLE] << std::endl;
+	// std::cout << "state user : " << stat.cpu_ticks[CPU_STATE_USER] << std::endl;
+	// std::cout << "state system : " << stat.cpu_ticks[CPU_STATE_SYSTEM] << std::endl;
+	// std::cout << "state nice : " << stat.cpu_ticks[CPU_STATE_NICE] << std::endl;
+	// std::cout << "state idle : " << stat.cpu_ticks[CPU_STATE_IDLE] << std::endl;
 	double user = stat.cpu_ticks[CPU_STATE_USER];
 	double system = stat.cpu_ticks[CPU_STATE_SYSTEM];
 	double idle = stat.cpu_ticks[CPU_STATE_IDLE];
@@ -123,9 +123,9 @@ DisplayBlock CPUModule::getDisplayInfo(void) {
 	ss << p_idle << "%";
 	std::string sp_idle = ss.str();
 
-	std::cout << "sp_user : " << sp_user << std::endl;
-	std::cout << "sp_system : " << sp_system << std::endl;
-	std::cout << "sp_idle : " << sp_idle << std::endl;
+	// std::cout << "sp_user : " << sp_user << std::endl;
+	// std::cout << "sp_system : " << sp_system << std::endl;
+	// std::cout << "sp_idle : " << sp_idle << std::endl;
 
 	ret.addField(new TextField(cpu_brand_string, 25));
 	ret.addField(new TextField("Logical cpu number: " + cpu_nbr_logical, 25));

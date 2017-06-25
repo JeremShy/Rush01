@@ -1,6 +1,7 @@
 #include "TextField.hpp"
 #include "display.hpp"
 #include <iostream>
+#include <fstream>
 
 //PUBLIC
 TextField::TextField() {}
@@ -59,16 +60,20 @@ std::vector<int>	TextField::printFieldForNcurse(int x, int y) const
 	int curx = x;
 	int cury = y;
 
-	// std::cout << "------------------------------------------------------------trying to print " << _text << std::endl;
-
-	for (std::string::const_iterator i = _text.begin(); i != _text.end(); i++)
+	std::fstream a("log.log", std::fstream::out | std::fstream::app);
+	a << "------------------------------------------------------------trying to print " << _text << std::endl;
+	for (std::string::const_iterator i = _text.begin(); i != _text.end(); ++i)
 	{
+		a << "writing : [" << *i << "] at " << curx << "-" << cury << std::endl;
 		printCharAt(curx, cury, *i);
-		if (x >= 30) {
-			x = 0;
-			y++;
+		curx++;
+		if (curx >= x + 30) {
+			curx = x;
+			cury++;
 		}
 	}
+	vec[0] = curx;
+	vec[1] = cury;
 	return (vec);
 }
 

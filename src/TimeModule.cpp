@@ -40,6 +40,6 @@ DisplayBlock TimeModule::getDisplayInfo(void) {
 	ret.addField(new TextField("Date: " + date, 25));
 	ret.addField(new TextField("Heure: " + heure, 25));
 
-	std::cout << "date: " << date << std::endl << "heure: " << heure << std::endl;
+	// std::cout << "date: " << date << std::endl << "heure: " << heure << std::endl;
 	return (ret);
 }

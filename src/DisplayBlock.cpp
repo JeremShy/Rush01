@@ -2,12 +2,12 @@
 
 //PUBLIC
 DisplayBlock::DisplayBlock(void) {
-	std::cout << "Creating a DisplayBlock" << std::endl;
+	// std::cout << "Creating a DisplayBlock" << std::endl;
 }
 
 
 DisplayBlock::~DisplayBlock(void) {
-	std::cout << "Destroying a DisplayBlock" << std::endl;
+	// std::cout << "Destroying a DisplayBlock" << std::endl;
 }
 
 

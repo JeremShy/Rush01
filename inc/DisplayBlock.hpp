@@ -13,9 +13,9 @@ public:
 	void												addField(AField *field);
 	std::deque<AField*>				getFields(void) const;
 	DisplayBlock(DisplayBlock const & src);
+	DisplayBlock & operator=(DisplayBlock const & rhs);
 
 private:
-	DisplayBlock & operator=(DisplayBlock const & rhs);
 	std::deque<AField*>				_fields;
 };
 #endif

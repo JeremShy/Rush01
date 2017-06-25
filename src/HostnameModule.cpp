@@ -34,7 +34,7 @@ DisplayBlock HostnameModule::getDisplayInfo(void){
 	std::string username(usernamech);
 	std::string hostname(hostnamech);
 
-	std::cout << "username : " << username << std::endl << "hostname : " << hostname << std::endl;
+	// std::cout << "username : " << username << std::endl << "hostname : " << hostname << std::endl;
 	DisplayBlock ret;
 	ret.addField(new TextField(username, 25));
 	ret.addField(new TextField(hostname, 25));

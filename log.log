@@ -1,17 +1,2020 @@
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
 Writing at : 0 - 0
-Writing at : 0 - 0
-Writing at : 0 - 0
-Writing at : 0 - 0
-Writing at : 0 - 0
-Writing at : 0 - 0
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-0
+writing : [a] at 1-0
+writing : [t] at 2-0
+writing : [e] at 3-0
+writing : [:] at 4-0
+writing : [ ] at 5-0
+writing : [2] at 6-0
+writing : [0] at 7-0
+writing : [1] at 8-0
+writing : [7] at 9-0
+writing : [:] at 10-0
+writing : [0] at 11-0
+writing : [6] at 12-0
+writing : [:] at 13-0
+writing : [2] at 14-0
+writing : [5] at 15-0
+Writing at : 0 - 1
+------------------------------------------------------------trying to print Heure: 21:55:29
+writing : [H] at 0-1
+writing : [e] at 1-1
+writing : [u] at 2-1
+writing : [r] at 3-1
+writing : [e] at 4-1
+writing : [:] at 5-1
+writing : [ ] at 6-1
+writing : [2] at 7-1
+writing : [1] at 8-1
+writing : [:] at 9-1
+writing : [5] at 10-1
+writing : [5] at 11-1
+writing : [:] at 12-1
+writing : [2] at 13-1
+writing : [9] at 14-1
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 3
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
 Writing at : 0 - 3
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-3
+writing : [a] at 1-3
+writing : [t] at 2-3
+writing : [e] at 3-3
+writing : [:] at 4-3
+writing : [ ] at 5-3
+writing : [2] at 6-3
+writing : [0] at 7-3
+writing : [1] at 8-3
+writing : [7] at 9-3
+writing : [:] at 10-3
+writing : [0] at 11-3
+writing : [6] at 12-3
+writing : [:] at 13-3
+writing : [2] at 14-3
+writing : [5] at 15-3
+Writing at : 0 - 4
+------------------------------------------------------------trying to print Heure: 21:55:29
+writing : [H] at 0-4
+writing : [e] at 1-4
+writing : [u] at 2-4
+writing : [r] at 3-4
+writing : [e] at 4-4
+writing : [:] at 5-4
+writing : [ ] at 6-4
+writing : [2] at 7-4
+writing : [1] at 8-4
+writing : [:] at 9-4
+writing : [5] at 10-4
+writing : [5] at 11-4
+writing : [:] at 12-4
+writing : [2] at 13-4
+writing : [9] at 14-4
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 6
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+vec[0] : 18
+vec[1] : 0
+vec[0] : 16
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 6
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-6
+writing : [n] at 1-6
+writing : [t] at 2-6
+writing : [e] at 3-6
+writing : [l] at 4-6
+writing : [(] at 5-6
+writing : [R] at 6-6
+writing : [)] at 7-6
+writing : [ ] at 8-6
+writing : [C] at 9-6
+writing : [o] at 10-6
+writing : [r] at 11-6
+writing : [e] at 12-6
+writing : [(] at 13-6
+writing : [T] at 14-6
+writing : [M] at 15-6
+writing : [)] at 16-6
+writing : [ ] at 17-6
+writing : [i] at 18-6
+writing : [5] at 19-6
+writing : [-] at 20-6
+writing : [3] at 21-6
+writing : [4] at 22-6
+writing : [7] at 23-6
+writing : [0] at 24-6
+writing : [S] at 25-6
+writing : [ ] at 26-6
+writing : [C] at 27-6
+writing : [P] at 28-6
+writing : [U] at 29-6
+writing : [ ] at 0-7
+writing : [@] at 1-7
+writing : [ ] at 2-7
+writing : [2] at 3-7
+writing : [.] at 4-7
+writing : [9] at 5-7
+writing : [0] at 6-7
+writing : [G] at 7-7
+writing : [H] at 8-7
+writing : [z] at 9-7
+Writing at : 0 - 8
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-8
+writing : [o] at 1-8
+writing : [g] at 2-8
+writing : [i] at 3-8
+writing : [c] at 4-8
+writing : [a] at 5-8
+writing : [l] at 6-8
+writing : [ ] at 7-8
+writing : [c] at 8-8
+writing : [p] at 9-8
+writing : [u] at 10-8
+writing : [ ] at 11-8
+writing : [n] at 12-8
+writing : [u] at 13-8
+writing : [m] at 14-8
+writing : [b] at 15-8
+writing : [e] at 16-8
+writing : [r] at 17-8
+writing : [:] at 18-8
+writing : [ ] at 19-8
+writing : [4] at 20-8
+Writing at : 0 - 9
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-9
+writing : [h] at 1-9
+writing : [y] at 2-9
+writing : [s] at 3-9
+writing : [i] at 4-9
+writing : [c] at 5-9
+writing : [a] at 6-9
+writing : [l] at 7-9
+writing : [ ] at 8-9
+writing : [c] at 9-9
+writing : [p] at 10-9
+writing : [u] at 11-9
+writing : [ ] at 12-9
+writing : [n] at 13-9
+writing : [u] at 14-9
+writing : [m] at 15-9
+writing : [b] at 16-9
+writing : [e] at 17-9
+writing : [r] at 18-9
+writing : [:] at 19-9
+writing : [ ] at 20-9
+writing : [3] at 21-9
+writing : [2] at 22-9
+writing : [7] at 23-9
+writing : [4] at 24-9
+writing : [3] at 25-9
+Writing at : 0 - 10
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-10
+writing : [r] at 1-10
+writing : [e] at 2-10
+writing : [q] at 3-10
+writing : [u] at 4-10
+writing : [e] at 5-10
+writing : [n] at 6-10
+writing : [c] at 7-10
+writing : [y] at 8-10
+writing : [:] at 9-10
+writing : [ ] at 10-10
+writing : [2] at 11-10
+writing : [.] at 12-10
+writing : [9] at 13-10
+writing : [G] at 14-10
+writing : [H] at 15-10
+writing : [z] at 16-10
+Writing at : 0 - 11
+------------------------------------------------------------trying to print Usage user : 0%
+writing : [U] at 0-11
+writing : [s] at 1-11
+writing : [a] at 2-11
+writing : [g] at 3-11
+writing : [e] at 4-11
+writing : [ ] at 5-11
+writing : [u] at 6-11
+writing : [s] at 7-11
+writing : [e] at 8-11
+writing : [r] at 9-11
+writing : [ ] at 10-11
+writing : [:] at 11-11
+writing : [ ] at 12-11
+writing : [0] at 13-11
+writing : [%] at 14-11
+Writing at : 0 - 12
+------------------------------------------------------------trying to print Usage system : 50%
+writing : [U] at 0-12
+writing : [s] at 1-12
+writing : [a] at 2-12
+writing : [g] at 3-12
+writing : [e] at 4-12
+writing : [ ] at 5-12
+writing : [s] at 6-12
+writing : [y] at 7-12
+writing : [s] at 8-12
+writing : [t] at 9-12
+writing : [e] at 10-12
+writing : [m] at 11-12
+writing : [ ] at 12-12
+writing : [:] at 13-12
+writing : [ ] at 14-12
+writing : [5] at 15-12
+writing : [0] at 16-12
+writing : [%] at 17-12
+Writing at : 0 - 13
+------------------------------------------------------------trying to print Usage idle : 50%
+writing : [U] at 0-13
+writing : [s] at 1-13
+writing : [a] at 2-13
+writing : [g] at 3-13
+writing : [e] at 4-13
+writing : [ ] at 5-13
+writing : [i] at 6-13
+writing : [d] at 7-13
+writing : [l] at 8-13
+writing : [e] at 9-13
+writing : [ ] at 10-13
+writing : [:] at 11-13
+writing : [ ] at 12-13
+writing : [5] at 13-13
+writing : [0] at 14-13
+writing : [%] at 15-13
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 15
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+vec[0] : 18
+vec[1] : 0
+vec[0] : 16
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 15
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-15
+writing : [n] at 1-15
+writing : [t] at 2-15
+writing : [e] at 3-15
+writing : [l] at 4-15
+writing : [(] at 5-15
+writing : [R] at 6-15
+writing : [)] at 7-15
+writing : [ ] at 8-15
+writing : [C] at 9-15
+writing : [o] at 10-15
+writing : [r] at 11-15
+writing : [e] at 12-15
+writing : [(] at 13-15
+writing : [T] at 14-15
+writing : [M] at 15-15
+writing : [)] at 16-15
+writing : [ ] at 17-15
+writing : [i] at 18-15
+writing : [5] at 19-15
+writing : [-] at 20-15
+writing : [3] at 21-15
+writing : [4] at 22-15
+writing : [7] at 23-15
+writing : [0] at 24-15
+writing : [S] at 25-15
+writing : [ ] at 26-15
+writing : [C] at 27-15
+writing : [P] at 28-15
+writing : [U] at 29-15
+writing : [ ] at 0-16
+writing : [@] at 1-16
+writing : [ ] at 2-16
+writing : [2] at 3-16
+writing : [.] at 4-16
+writing : [9] at 5-16
+writing : [0] at 6-16
+writing : [G] at 7-16
+writing : [H] at 8-16
+writing : [z] at 9-16
+Writing at : 0 - 17
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-17
+writing : [o] at 1-17
+writing : [g] at 2-17
+writing : [i] at 3-17
+writing : [c] at 4-17
+writing : [a] at 5-17
+writing : [l] at 6-17
+writing : [ ] at 7-17
+writing : [c] at 8-17
+writing : [p] at 9-17
+writing : [u] at 10-17
+writing : [ ] at 11-17
+writing : [n] at 12-17
+writing : [u] at 13-17
+writing : [m] at 14-17
+writing : [b] at 15-17
+writing : [e] at 16-17
+writing : [r] at 17-17
+writing : [:] at 18-17
+writing : [ ] at 19-17
+writing : [4] at 20-17
+Writing at : 0 - 18
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-18
+writing : [h] at 1-18
+writing : [y] at 2-18
+writing : [s] at 3-18
+writing : [i] at 4-18
+writing : [c] at 5-18
+writing : [a] at 6-18
+writing : [l] at 7-18
+writing : [ ] at 8-18
+writing : [c] at 9-18
+writing : [p] at 10-18
+writing : [u] at 11-18
+writing : [ ] at 12-18
+writing : [n] at 13-18
+writing : [u] at 14-18
+writing : [m] at 15-18
+writing : [b] at 16-18
+writing : [e] at 17-18
+writing : [r] at 18-18
+writing : [:] at 19-18
+writing : [ ] at 20-18
+writing : [3] at 21-18
+writing : [2] at 22-18
+writing : [7] at 23-18
+writing : [4] at 24-18
+writing : [3] at 25-18
+Writing at : 0 - 19
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-19
+writing : [r] at 1-19
+writing : [e] at 2-19
+writing : [q] at 3-19
+writing : [u] at 4-19
+writing : [e] at 5-19
+writing : [n] at 6-19
+writing : [c] at 7-19
+writing : [y] at 8-19
+writing : [:] at 9-19
+writing : [ ] at 10-19
+writing : [2] at 11-19
+writing : [.] at 12-19
+writing : [9] at 13-19
+writing : [G] at 14-19
+writing : [H] at 15-19
+writing : [z] at 16-19
+Writing at : 0 - 20
+------------------------------------------------------------trying to print Usage user : 0%
+writing : [U] at 0-20
+writing : [s] at 1-20
+writing : [a] at 2-20
+writing : [g] at 3-20
+writing : [e] at 4-20
+writing : [ ] at 5-20
+writing : [u] at 6-20
+writing : [s] at 7-20
+writing : [e] at 8-20
+writing : [r] at 9-20
+writing : [ ] at 10-20
+writing : [:] at 11-20
+writing : [ ] at 12-20
+writing : [0] at 13-20
+writing : [%] at 14-20
+Writing at : 0 - 21
+------------------------------------------------------------trying to print Usage system : 50%
+writing : [U] at 0-21
+writing : [s] at 1-21
+writing : [a] at 2-21
+writing : [g] at 3-21
+writing : [e] at 4-21
+writing : [ ] at 5-21
+writing : [s] at 6-21
+writing : [y] at 7-21
+writing : [s] at 8-21
+writing : [t] at 9-21
+writing : [e] at 10-21
+writing : [m] at 11-21
+writing : [ ] at 12-21
+writing : [:] at 13-21
+writing : [ ] at 14-21
+writing : [5] at 15-21
+writing : [0] at 16-21
+writing : [%] at 17-21
+Writing at : 0 - 22
+------------------------------------------------------------trying to print Usage idle : 50%
+writing : [U] at 0-22
+writing : [s] at 1-22
+writing : [a] at 2-22
+writing : [g] at 3-22
+writing : [e] at 4-22
+writing : [ ] at 5-22
+writing : [i] at 6-22
+writing : [d] at 7-22
+writing : [l] at 8-22
+writing : [e] at 9-22
+writing : [ ] at 10-22
+writing : [:] at 11-22
+writing : [ ] at 12-22
+writing : [5] at 13-22
+writing : [0] at 14-22
+writing : [%] at 15-22
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 24
+vec[0] : 22
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 24
+------------------------------------------------------------trying to print Memory usage : 94.281%
+writing : [M] at 0-24
+writing : [e] at 1-24
+writing : [m] at 2-24
+writing : [o] at 3-24
+writing : [r] at 4-24
+writing : [y] at 5-24
+writing : [ ] at 6-24
+writing : [u] at 7-24
+writing : [s] at 8-24
+writing : [a] at 9-24
+writing : [g] at 10-24
+writing : [e] at 11-24
+writing : [ ] at 12-24
+writing : [:] at 13-24
+writing : [ ] at 14-24
+writing : [9] at 15-24
+writing : [4] at 16-24
+writing : [.] at 17-24
+writing : [2] at 18-24
+writing : [8] at 19-24
+writing : [1] at 20-24
+writing : [%] at 21-24
+vec[0] : 22 - vec[1] : 2
+x : 0 - y : 26
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
 Writing at : 0 - 0
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-0
+writing : [a] at 1-0
+writing : [t] at 2-0
+writing : [e] at 3-0
+writing : [:] at 4-0
+writing : [ ] at 5-0
+writing : [2] at 6-0
+writing : [0] at 7-0
+writing : [1] at 8-0
+writing : [7] at 9-0
+writing : [:] at 10-0
+writing : [0] at 11-0
+writing : [6] at 12-0
+writing : [:] at 13-0
+writing : [2] at 14-0
+writing : [5] at 15-0
+Writing at : 0 - 1
+------------------------------------------------------------trying to print Heure: 21:55:30
+writing : [H] at 0-1
+writing : [e] at 1-1
+writing : [u] at 2-1
+writing : [r] at 3-1
+writing : [e] at 4-1
+writing : [:] at 5-1
+writing : [ ] at 6-1
+writing : [2] at 7-1
+writing : [1] at 8-1
+writing : [:] at 9-1
+writing : [5] at 10-1
+writing : [5] at 11-1
+writing : [:] at 12-1
+writing : [3] at 13-1
+writing : [0] at 14-1
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 3
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 3
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-3
+writing : [a] at 1-3
+writing : [t] at 2-3
+writing : [e] at 3-3
+writing : [:] at 4-3
+writing : [ ] at 5-3
+writing : [2] at 6-3
+writing : [0] at 7-3
+writing : [1] at 8-3
+writing : [7] at 9-3
+writing : [:] at 10-3
+writing : [0] at 11-3
+writing : [6] at 12-3
+writing : [:] at 13-3
+writing : [2] at 14-3
+writing : [5] at 15-3
+Writing at : 0 - 4
+------------------------------------------------------------trying to print Heure: 21:55:30
+writing : [H] at 0-4
+writing : [e] at 1-4
+writing : [u] at 2-4
+writing : [r] at 3-4
+writing : [e] at 4-4
+writing : [:] at 5-4
+writing : [ ] at 6-4
+writing : [2] at 7-4
+writing : [1] at 8-4
+writing : [:] at 9-4
+writing : [5] at 10-4
+writing : [5] at 11-4
+writing : [:] at 12-4
+writing : [3] at 13-4
+writing : [0] at 14-4
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 6
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+vec[0] : 23
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 6
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-6
+writing : [n] at 1-6
+writing : [t] at 2-6
+writing : [e] at 3-6
+writing : [l] at 4-6
+writing : [(] at 5-6
+writing : [R] at 6-6
+writing : [)] at 7-6
+writing : [ ] at 8-6
+writing : [C] at 9-6
+writing : [o] at 10-6
+writing : [r] at 11-6
+writing : [e] at 12-6
+writing : [(] at 13-6
+writing : [T] at 14-6
+writing : [M] at 15-6
+writing : [)] at 16-6
+writing : [ ] at 17-6
+writing : [i] at 18-6
+writing : [5] at 19-6
+writing : [-] at 20-6
+writing : [3] at 21-6
+writing : [4] at 22-6
+writing : [7] at 23-6
+writing : [0] at 24-6
+writing : [S] at 25-6
+writing : [ ] at 26-6
+writing : [C] at 27-6
+writing : [P] at 28-6
+writing : [U] at 29-6
+writing : [ ] at 0-7
+writing : [@] at 1-7
+writing : [ ] at 2-7
+writing : [2] at 3-7
+writing : [.] at 4-7
+writing : [9] at 5-7
+writing : [0] at 6-7
+writing : [G] at 7-7
+writing : [H] at 8-7
+writing : [z] at 9-7
+Writing at : 0 - 8
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-8
+writing : [o] at 1-8
+writing : [g] at 2-8
+writing : [i] at 3-8
+writing : [c] at 4-8
+writing : [a] at 5-8
+writing : [l] at 6-8
+writing : [ ] at 7-8
+writing : [c] at 8-8
+writing : [p] at 9-8
+writing : [u] at 10-8
+writing : [ ] at 11-8
+writing : [n] at 12-8
+writing : [u] at 13-8
+writing : [m] at 14-8
+writing : [b] at 15-8
+writing : [e] at 16-8
+writing : [r] at 17-8
+writing : [:] at 18-8
+writing : [ ] at 19-8
+writing : [4] at 20-8
+Writing at : 0 - 9
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-9
+writing : [h] at 1-9
+writing : [y] at 2-9
+writing : [s] at 3-9
+writing : [i] at 4-9
+writing : [c] at 5-9
+writing : [a] at 6-9
+writing : [l] at 7-9
+writing : [ ] at 8-9
+writing : [c] at 9-9
+writing : [p] at 10-9
+writing : [u] at 11-9
+writing : [ ] at 12-9
+writing : [n] at 13-9
+writing : [u] at 14-9
+writing : [m] at 15-9
+writing : [b] at 16-9
+writing : [e] at 17-9
+writing : [r] at 18-9
+writing : [:] at 19-9
+writing : [ ] at 20-9
+writing : [3] at 21-9
+writing : [2] at 22-9
+writing : [7] at 23-9
+writing : [4] at 24-9
+writing : [3] at 25-9
+Writing at : 0 - 10
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-10
+writing : [r] at 1-10
+writing : [e] at 2-10
+writing : [q] at 3-10
+writing : [u] at 4-10
+writing : [e] at 5-10
+writing : [n] at 6-10
+writing : [c] at 7-10
+writing : [y] at 8-10
+writing : [:] at 9-10
+writing : [ ] at 10-10
+writing : [2] at 11-10
+writing : [.] at 12-10
+writing : [9] at 13-10
+writing : [G] at 14-10
+writing : [H] at 15-10
+writing : [z] at 16-10
+Writing at : 0 - 11
+------------------------------------------------------------trying to print Usage user : 5.72139%
+writing : [U] at 0-11
+writing : [s] at 1-11
+writing : [a] at 2-11
+writing : [g] at 3-11
+writing : [e] at 4-11
+writing : [ ] at 5-11
+writing : [u] at 6-11
+writing : [s] at 7-11
+writing : [e] at 8-11
+writing : [r] at 9-11
+writing : [ ] at 10-11
+writing : [:] at 11-11
+writing : [ ] at 12-11
+writing : [5] at 13-11
+writing : [.] at 14-11
+writing : [7] at 15-11
+writing : [2] at 16-11
+writing : [1] at 17-11
+writing : [3] at 18-11
+writing : [9] at 19-11
+writing : [%] at 20-11
+Writing at : 0 - 12
+------------------------------------------------------------trying to print Usage system : 7.46269%
+writing : [U] at 0-12
+writing : [s] at 1-12
+writing : [a] at 2-12
+writing : [g] at 3-12
+writing : [e] at 4-12
+writing : [ ] at 5-12
+writing : [s] at 6-12
+writing : [y] at 7-12
+writing : [s] at 8-12
+writing : [t] at 9-12
+writing : [e] at 10-12
+writing : [m] at 11-12
+writing : [ ] at 12-12
+writing : [:] at 13-12
+writing : [ ] at 14-12
+writing : [7] at 15-12
+writing : [.] at 16-12
+writing : [4] at 17-12
+writing : [6] at 18-12
+writing : [2] at 19-12
+writing : [6] at 20-12
+writing : [9] at 21-12
+writing : [%] at 22-12
+Writing at : 0 - 13
+------------------------------------------------------------trying to print Usage idle : 86.8159%
+writing : [U] at 0-13
+writing : [s] at 1-13
+writing : [a] at 2-13
+writing : [g] at 3-13
+writing : [e] at 4-13
+writing : [ ] at 5-13
+writing : [i] at 6-13
+writing : [d] at 7-13
+writing : [l] at 8-13
+writing : [e] at 9-13
+writing : [ ] at 10-13
+writing : [:] at 11-13
+writing : [ ] at 12-13
+writing : [8] at 13-13
+writing : [6] at 14-13
+writing : [.] at 15-13
+writing : [8] at 16-13
+writing : [1] at 17-13
+writing : [5] at 18-13
+writing : [9] at 19-13
+writing : [%] at 20-13
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 15
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+vec[0] : 23
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 15
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-15
+writing : [n] at 1-15
+writing : [t] at 2-15
+writing : [e] at 3-15
+writing : [l] at 4-15
+writing : [(] at 5-15
+writing : [R] at 6-15
+writing : [)] at 7-15
+writing : [ ] at 8-15
+writing : [C] at 9-15
+writing : [o] at 10-15
+writing : [r] at 11-15
+writing : [e] at 12-15
+writing : [(] at 13-15
+writing : [T] at 14-15
+writing : [M] at 15-15
+writing : [)] at 16-15
+writing : [ ] at 17-15
+writing : [i] at 18-15
+writing : [5] at 19-15
+writing : [-] at 20-15
+writing : [3] at 21-15
+writing : [4] at 22-15
+writing : [7] at 23-15
+writing : [0] at 24-15
+writing : [S] at 25-15
+writing : [ ] at 26-15
+writing : [C] at 27-15
+writing : [P] at 28-15
+writing : [U] at 29-15
+writing : [ ] at 0-16
+writing : [@] at 1-16
+writing : [ ] at 2-16
+writing : [2] at 3-16
+writing : [.] at 4-16
+writing : [9] at 5-16
+writing : [0] at 6-16
+writing : [G] at 7-16
+writing : [H] at 8-16
+writing : [z] at 9-16
+Writing at : 0 - 17
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-17
+writing : [o] at 1-17
+writing : [g] at 2-17
+writing : [i] at 3-17
+writing : [c] at 4-17
+writing : [a] at 5-17
+writing : [l] at 6-17
+writing : [ ] at 7-17
+writing : [c] at 8-17
+writing : [p] at 9-17
+writing : [u] at 10-17
+writing : [ ] at 11-17
+writing : [n] at 12-17
+writing : [u] at 13-17
+writing : [m] at 14-17
+writing : [b] at 15-17
+writing : [e] at 16-17
+writing : [r] at 17-17
+writing : [:] at 18-17
+writing : [ ] at 19-17
+writing : [4] at 20-17
+Writing at : 0 - 18
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-18
+writing : [h] at 1-18
+writing : [y] at 2-18
+writing : [s] at 3-18
+writing : [i] at 4-18
+writing : [c] at 5-18
+writing : [a] at 6-18
+writing : [l] at 7-18
+writing : [ ] at 8-18
+writing : [c] at 9-18
+writing : [p] at 10-18
+writing : [u] at 11-18
+writing : [ ] at 12-18
+writing : [n] at 13-18
+writing : [u] at 14-18
+writing : [m] at 15-18
+writing : [b] at 16-18
+writing : [e] at 17-18
+writing : [r] at 18-18
+writing : [:] at 19-18
+writing : [ ] at 20-18
+writing : [3] at 21-18
+writing : [2] at 22-18
+writing : [7] at 23-18
+writing : [4] at 24-18
+writing : [3] at 25-18
+Writing at : 0 - 19
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-19
+writing : [r] at 1-19
+writing : [e] at 2-19
+writing : [q] at 3-19
+writing : [u] at 4-19
+writing : [e] at 5-19
+writing : [n] at 6-19
+writing : [c] at 7-19
+writing : [y] at 8-19
+writing : [:] at 9-19
+writing : [ ] at 10-19
+writing : [2] at 11-19
+writing : [.] at 12-19
+writing : [9] at 13-19
+writing : [G] at 14-19
+writing : [H] at 15-19
+writing : [z] at 16-19
+Writing at : 0 - 20
+------------------------------------------------------------trying to print Usage user : 5.72139%
+writing : [U] at 0-20
+writing : [s] at 1-20
+writing : [a] at 2-20
+writing : [g] at 3-20
+writing : [e] at 4-20
+writing : [ ] at 5-20
+writing : [u] at 6-20
+writing : [s] at 7-20
+writing : [e] at 8-20
+writing : [r] at 9-20
+writing : [ ] at 10-20
+writing : [:] at 11-20
+writing : [ ] at 12-20
+writing : [5] at 13-20
+writing : [.] at 14-20
+writing : [7] at 15-20
+writing : [2] at 16-20
+writing : [1] at 17-20
+writing : [3] at 18-20
+writing : [9] at 19-20
+writing : [%] at 20-20
+Writing at : 0 - 21
+------------------------------------------------------------trying to print Usage system : 7.46269%
+writing : [U] at 0-21
+writing : [s] at 1-21
+writing : [a] at 2-21
+writing : [g] at 3-21
+writing : [e] at 4-21
+writing : [ ] at 5-21
+writing : [s] at 6-21
+writing : [y] at 7-21
+writing : [s] at 8-21
+writing : [t] at 9-21
+writing : [e] at 10-21
+writing : [m] at 11-21
+writing : [ ] at 12-21
+writing : [:] at 13-21
+writing : [ ] at 14-21
+writing : [7] at 15-21
+writing : [.] at 16-21
+writing : [4] at 17-21
+writing : [6] at 18-21
+writing : [2] at 19-21
+writing : [6] at 20-21
+writing : [9] at 21-21
+writing : [%] at 22-21
+Writing at : 0 - 22
+------------------------------------------------------------trying to print Usage idle : 86.8159%
+writing : [U] at 0-22
+writing : [s] at 1-22
+writing : [a] at 2-22
+writing : [g] at 3-22
+writing : [e] at 4-22
+writing : [ ] at 5-22
+writing : [i] at 6-22
+writing : [d] at 7-22
+writing : [l] at 8-22
+writing : [e] at 9-22
+writing : [ ] at 10-22
+writing : [:] at 11-22
+writing : [ ] at 12-22
+writing : [8] at 13-22
+writing : [6] at 14-22
+writing : [.] at 15-22
+writing : [8] at 16-22
+writing : [1] at 17-22
+writing : [5] at 18-22
+writing : [9] at 19-22
+writing : [%] at 20-22
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 24
+vec[0] : 23
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 24
+------------------------------------------------------------trying to print Memory usage : 96.1067%
+writing : [M] at 0-24
+writing : [e] at 1-24
+writing : [m] at 2-24
+writing : [o] at 3-24
+writing : [r] at 4-24
+writing : [y] at 5-24
+writing : [ ] at 6-24
+writing : [u] at 7-24
+writing : [s] at 8-24
+writing : [a] at 9-24
+writing : [g] at 10-24
+writing : [e] at 11-24
+writing : [ ] at 12-24
+writing : [:] at 13-24
+writing : [ ] at 14-24
+writing : [9] at 15-24
+writing : [6] at 16-24
+writing : [.] at 17-24
+writing : [1] at 18-24
+writing : [0] at 19-24
+writing : [6] at 20-24
+writing : [7] at 21-24
+writing : [%] at 22-24
+vec[0] : 23 - vec[1] : 2
+x : 0 - y : 26
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
 Writing at : 0 - 0
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-0
+writing : [a] at 1-0
+writing : [t] at 2-0
+writing : [e] at 3-0
+writing : [:] at 4-0
+writing : [ ] at 5-0
+writing : [2] at 6-0
+writing : [0] at 7-0
+writing : [1] at 8-0
+writing : [7] at 9-0
+writing : [:] at 10-0
+writing : [0] at 11-0
+writing : [6] at 12-0
+writing : [:] at 13-0
+writing : [2] at 14-0
+writing : [5] at 15-0
+Writing at : 0 - 1
+------------------------------------------------------------trying to print Heure: 21:55:31
+writing : [H] at 0-1
+writing : [e] at 1-1
+writing : [u] at 2-1
+writing : [r] at 3-1
+writing : [e] at 4-1
+writing : [:] at 5-1
+writing : [ ] at 6-1
+writing : [2] at 7-1
+writing : [1] at 8-1
+writing : [:] at 9-1
+writing : [5] at 10-1
+writing : [5] at 11-1
+writing : [:] at 12-1
+writing : [3] at 13-1
+writing : [1] at 14-1
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 3
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 3
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-3
+writing : [a] at 1-3
+writing : [t] at 2-3
+writing : [e] at 3-3
+writing : [:] at 4-3
+writing : [ ] at 5-3
+writing : [2] at 6-3
+writing : [0] at 7-3
+writing : [1] at 8-3
+writing : [7] at 9-3
+writing : [:] at 10-3
+writing : [0] at 11-3
+writing : [6] at 12-3
+writing : [:] at 13-3
+writing : [2] at 14-3
+writing : [5] at 15-3
+Writing at : 0 - 4
+------------------------------------------------------------trying to print Heure: 21:55:31
+writing : [H] at 0-4
+writing : [e] at 1-4
+writing : [u] at 2-4
+writing : [r] at 3-4
+writing : [e] at 4-4
+writing : [:] at 5-4
+writing : [ ] at 6-4
+writing : [2] at 7-4
+writing : [1] at 8-4
+writing : [:] at 9-4
+writing : [5] at 10-4
+writing : [5] at 11-4
+writing : [:] at 12-4
+writing : [3] at 13-4
+writing : [1] at 14-4
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 6
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+vec[0] : 23
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 6
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-6
+writing : [n] at 1-6
+writing : [t] at 2-6
+writing : [e] at 3-6
+writing : [l] at 4-6
+writing : [(] at 5-6
+writing : [R] at 6-6
+writing : [)] at 7-6
+writing : [ ] at 8-6
+writing : [C] at 9-6
+writing : [o] at 10-6
+writing : [r] at 11-6
+writing : [e] at 12-6
+writing : [(] at 13-6
+writing : [T] at 14-6
+writing : [M] at 15-6
+writing : [)] at 16-6
+writing : [ ] at 17-6
+writing : [i] at 18-6
+writing : [5] at 19-6
+writing : [-] at 20-6
+writing : [3] at 21-6
+writing : [4] at 22-6
+writing : [7] at 23-6
+writing : [0] at 24-6
+writing : [S] at 25-6
+writing : [ ] at 26-6
+writing : [C] at 27-6
+writing : [P] at 28-6
+writing : [U] at 29-6
+writing : [ ] at 0-7
+writing : [@] at 1-7
+writing : [ ] at 2-7
+writing : [2] at 3-7
+writing : [.] at 4-7
+writing : [9] at 5-7
+writing : [0] at 6-7
+writing : [G] at 7-7
+writing : [H] at 8-7
+writing : [z] at 9-7
+Writing at : 0 - 8
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-8
+writing : [o] at 1-8
+writing : [g] at 2-8
+writing : [i] at 3-8
+writing : [c] at 4-8
+writing : [a] at 5-8
+writing : [l] at 6-8
+writing : [ ] at 7-8
+writing : [c] at 8-8
+writing : [p] at 9-8
+writing : [u] at 10-8
+writing : [ ] at 11-8
+writing : [n] at 12-8
+writing : [u] at 13-8
+writing : [m] at 14-8
+writing : [b] at 15-8
+writing : [e] at 16-8
+writing : [r] at 17-8
+writing : [:] at 18-8
+writing : [ ] at 19-8
+writing : [4] at 20-8
+Writing at : 0 - 9
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-9
+writing : [h] at 1-9
+writing : [y] at 2-9
+writing : [s] at 3-9
+writing : [i] at 4-9
+writing : [c] at 5-9
+writing : [a] at 6-9
+writing : [l] at 7-9
+writing : [ ] at 8-9
+writing : [c] at 9-9
+writing : [p] at 10-9
+writing : [u] at 11-9
+writing : [ ] at 12-9
+writing : [n] at 13-9
+writing : [u] at 14-9
+writing : [m] at 15-9
+writing : [b] at 16-9
+writing : [e] at 17-9
+writing : [r] at 18-9
+writing : [:] at 19-9
+writing : [ ] at 20-9
+writing : [3] at 21-9
+writing : [2] at 22-9
+writing : [7] at 23-9
+writing : [4] at 24-9
+writing : [3] at 25-9
+Writing at : 0 - 10
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-10
+writing : [r] at 1-10
+writing : [e] at 2-10
+writing : [q] at 3-10
+writing : [u] at 4-10
+writing : [e] at 5-10
+writing : [n] at 6-10
+writing : [c] at 7-10
+writing : [y] at 8-10
+writing : [:] at 9-10
+writing : [ ] at 10-10
+writing : [2] at 11-10
+writing : [.] at 12-10
+writing : [9] at 13-10
+writing : [G] at 14-10
+writing : [H] at 15-10
+writing : [z] at 16-10
+Writing at : 0 - 11
+------------------------------------------------------------trying to print Usage user : 3.46535%
+writing : [U] at 0-11
+writing : [s] at 1-11
+writing : [a] at 2-11
+writing : [g] at 3-11
+writing : [e] at 4-11
+writing : [ ] at 5-11
+writing : [u] at 6-11
+writing : [s] at 7-11
+writing : [e] at 8-11
+writing : [r] at 9-11
+writing : [ ] at 10-11
+writing : [:] at 11-11
+writing : [ ] at 12-11
+writing : [3] at 13-11
+writing : [.] at 14-11
+writing : [4] at 15-11
+writing : [6] at 16-11
+writing : [5] at 17-11
+writing : [3] at 18-11
+writing : [5] at 19-11
+writing : [%] at 20-11
+Writing at : 0 - 12
+------------------------------------------------------------trying to print Usage system : 5.94059%
+writing : [U] at 0-12
+writing : [s] at 1-12
+writing : [a] at 2-12
+writing : [g] at 3-12
+writing : [e] at 4-12
+writing : [ ] at 5-12
+writing : [s] at 6-12
+writing : [y] at 7-12
+writing : [s] at 8-12
+writing : [t] at 9-12
+writing : [e] at 10-12
+writing : [m] at 11-12
+writing : [ ] at 12-12
+writing : [:] at 13-12
+writing : [ ] at 14-12
+writing : [5] at 15-12
+writing : [.] at 16-12
+writing : [9] at 17-12
+writing : [4] at 18-12
+writing : [0] at 19-12
+writing : [5] at 20-12
+writing : [9] at 21-12
+writing : [%] at 22-12
+Writing at : 0 - 13
+------------------------------------------------------------trying to print Usage idle : 90.5941%
+writing : [U] at 0-13
+writing : [s] at 1-13
+writing : [a] at 2-13
+writing : [g] at 3-13
+writing : [e] at 4-13
+writing : [ ] at 5-13
+writing : [i] at 6-13
+writing : [d] at 7-13
+writing : [l] at 8-13
+writing : [e] at 9-13
+writing : [ ] at 10-13
+writing : [:] at 11-13
+writing : [ ] at 12-13
+writing : [9] at 13-13
+writing : [0] at 14-13
+writing : [.] at 15-13
+writing : [5] at 16-13
+writing : [9] at 17-13
+writing : [4] at 18-13
+writing : [1] at 19-13
+writing : [%] at 20-13
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 15
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+vec[0] : 23
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 15
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-15
+writing : [n] at 1-15
+writing : [t] at 2-15
+writing : [e] at 3-15
+writing : [l] at 4-15
+writing : [(] at 5-15
+writing : [R] at 6-15
+writing : [)] at 7-15
+writing : [ ] at 8-15
+writing : [C] at 9-15
+writing : [o] at 10-15
+writing : [r] at 11-15
+writing : [e] at 12-15
+writing : [(] at 13-15
+writing : [T] at 14-15
+writing : [M] at 15-15
+writing : [)] at 16-15
+writing : [ ] at 17-15
+writing : [i] at 18-15
+writing : [5] at 19-15
+writing : [-] at 20-15
+writing : [3] at 21-15
+writing : [4] at 22-15
+writing : [7] at 23-15
+writing : [0] at 24-15
+writing : [S] at 25-15
+writing : [ ] at 26-15
+writing : [C] at 27-15
+writing : [P] at 28-15
+writing : [U] at 29-15
+writing : [ ] at 0-16
+writing : [@] at 1-16
+writing : [ ] at 2-16
+writing : [2] at 3-16
+writing : [.] at 4-16
+writing : [9] at 5-16
+writing : [0] at 6-16
+writing : [G] at 7-16
+writing : [H] at 8-16
+writing : [z] at 9-16
+Writing at : 0 - 17
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-17
+writing : [o] at 1-17
+writing : [g] at 2-17
+writing : [i] at 3-17
+writing : [c] at 4-17
+writing : [a] at 5-17
+writing : [l] at 6-17
+writing : [ ] at 7-17
+writing : [c] at 8-17
+writing : [p] at 9-17
+writing : [u] at 10-17
+writing : [ ] at 11-17
+writing : [n] at 12-17
+writing : [u] at 13-17
+writing : [m] at 14-17
+writing : [b] at 15-17
+writing : [e] at 16-17
+writing : [r] at 17-17
+writing : [:] at 18-17
+writing : [ ] at 19-17
+writing : [4] at 20-17
+Writing at : 0 - 18
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-18
+writing : [h] at 1-18
+writing : [y] at 2-18
+writing : [s] at 3-18
+writing : [i] at 4-18
+writing : [c] at 5-18
+writing : [a] at 6-18
+writing : [l] at 7-18
+writing : [ ] at 8-18
+writing : [c] at 9-18
+writing : [p] at 10-18
+writing : [u] at 11-18
+writing : [ ] at 12-18
+writing : [n] at 13-18
+writing : [u] at 14-18
+writing : [m] at 15-18
+writing : [b] at 16-18
+writing : [e] at 17-18
+writing : [r] at 18-18
+writing : [:] at 19-18
+writing : [ ] at 20-18
+writing : [3] at 21-18
+writing : [2] at 22-18
+writing : [7] at 23-18
+writing : [4] at 24-18
+writing : [3] at 25-18
+Writing at : 0 - 19
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-19
+writing : [r] at 1-19
+writing : [e] at 2-19
+writing : [q] at 3-19
+writing : [u] at 4-19
+writing : [e] at 5-19
+writing : [n] at 6-19
+writing : [c] at 7-19
+writing : [y] at 8-19
+writing : [:] at 9-19
+writing : [ ] at 10-19
+writing : [2] at 11-19
+writing : [.] at 12-19
+writing : [9] at 13-19
+writing : [G] at 14-19
+writing : [H] at 15-19
+writing : [z] at 16-19
+Writing at : 0 - 20
+------------------------------------------------------------trying to print Usage user : 3.46535%
+writing : [U] at 0-20
+writing : [s] at 1-20
+writing : [a] at 2-20
+writing : [g] at 3-20
+writing : [e] at 4-20
+writing : [ ] at 5-20
+writing : [u] at 6-20
+writing : [s] at 7-20
+writing : [e] at 8-20
+writing : [r] at 9-20
+writing : [ ] at 10-20
+writing : [:] at 11-20
+writing : [ ] at 12-20
+writing : [3] at 13-20
+writing : [.] at 14-20
+writing : [4] at 15-20
+writing : [6] at 16-20
+writing : [5] at 17-20
+writing : [3] at 18-20
+writing : [5] at 19-20
+writing : [%] at 20-20
+Writing at : 0 - 21
+------------------------------------------------------------trying to print Usage system : 5.94059%
+writing : [U] at 0-21
+writing : [s] at 1-21
+writing : [a] at 2-21
+writing : [g] at 3-21
+writing : [e] at 4-21
+writing : [ ] at 5-21
+writing : [s] at 6-21
+writing : [y] at 7-21
+writing : [s] at 8-21
+writing : [t] at 9-21
+writing : [e] at 10-21
+writing : [m] at 11-21
+writing : [ ] at 12-21
+writing : [:] at 13-21
+writing : [ ] at 14-21
+writing : [5] at 15-21
+writing : [.] at 16-21
+writing : [9] at 17-21
+writing : [4] at 18-21
+writing : [0] at 19-21
+writing : [5] at 20-21
+writing : [9] at 21-21
+writing : [%] at 22-21
+Writing at : 0 - 22
+------------------------------------------------------------trying to print Usage idle : 90.5941%
+writing : [U] at 0-22
+writing : [s] at 1-22
+writing : [a] at 2-22
+writing : [g] at 3-22
+writing : [e] at 4-22
+writing : [ ] at 5-22
+writing : [i] at 6-22
+writing : [d] at 7-22
+writing : [l] at 8-22
+writing : [e] at 9-22
+writing : [ ] at 10-22
+writing : [:] at 11-22
+writing : [ ] at 12-22
+writing : [9] at 13-22
+writing : [0] at 14-22
+writing : [.] at 15-22
+writing : [5] at 16-22
+writing : [9] at 17-22
+writing : [4] at 18-22
+writing : [1] at 19-22
+writing : [%] at 20-22
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 24
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 24
+------------------------------------------------------------trying to print Memory usage : 96.21%
+writing : [M] at 0-24
+writing : [e] at 1-24
+writing : [m] at 2-24
+writing : [o] at 3-24
+writing : [r] at 4-24
+writing : [y] at 5-24
+writing : [ ] at 6-24
+writing : [u] at 7-24
+writing : [s] at 8-24
+writing : [a] at 9-24
+writing : [g] at 10-24
+writing : [e] at 11-24
+writing : [ ] at 12-24
+writing : [:] at 13-24
+writing : [ ] at 14-24
+writing : [9] at 15-24
+writing : [6] at 16-24
+writing : [.] at 17-24
+writing : [2] at 18-24
+writing : [1] at 19-24
+writing : [%] at 20-24
+vec[0] : 21 - vec[1] : 2
+x : 0 - y : 26
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
 Writing at : 0 - 0
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-0
+writing : [a] at 1-0
+writing : [t] at 2-0
+writing : [e] at 3-0
+writing : [:] at 4-0
+writing : [ ] at 5-0
+writing : [2] at 6-0
+writing : [0] at 7-0
+writing : [1] at 8-0
+writing : [7] at 9-0
+writing : [:] at 10-0
+writing : [0] at 11-0
+writing : [6] at 12-0
+writing : [:] at 13-0
+writing : [2] at 14-0
+writing : [5] at 15-0
 Writing at : 0 - 1
-Writing at : 0 - 1
-Writing at : 0 - 1
-Writing at : 0 - 1
-Writing at : 0 - 1
-Writing at : 0 - 1
-Writing at : 0 - 0
+------------------------------------------------------------trying to print Heure: 21:55:32
+writing : [H] at 0-1
+writing : [e] at 1-1
+writing : [u] at 2-1
+writing : [r] at 3-1
+writing : [e] at 4-1
+writing : [:] at 5-1
+writing : [ ] at 6-1
+writing : [2] at 7-1
+writing : [1] at 8-1
+writing : [:] at 9-1
+writing : [5] at 10-1
+writing : [5] at 11-1
+writing : [:] at 12-1
+writing : [3] at 13-1
+writing : [2] at 14-1
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 3
+vec[0] : 16
+vec[1] : 0
+vec[0] : 15
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 3
+------------------------------------------------------------trying to print Date: 2017:06:25
+writing : [D] at 0-3
+writing : [a] at 1-3
+writing : [t] at 2-3
+writing : [e] at 3-3
+writing : [:] at 4-3
+writing : [ ] at 5-3
+writing : [2] at 6-3
+writing : [0] at 7-3
+writing : [1] at 8-3
+writing : [7] at 9-3
+writing : [:] at 10-3
+writing : [0] at 11-3
+writing : [6] at 12-3
+writing : [:] at 13-3
+writing : [2] at 14-3
+writing : [5] at 15-3
+Writing at : 0 - 4
+------------------------------------------------------------trying to print Heure: 21:55:32
+writing : [H] at 0-4
+writing : [e] at 1-4
+writing : [u] at 2-4
+writing : [r] at 3-4
+writing : [e] at 4-4
+writing : [:] at 5-4
+writing : [ ] at 6-4
+writing : [2] at 7-4
+writing : [1] at 8-4
+writing : [:] at 9-4
+writing : [5] at 10-4
+writing : [5] at 11-4
+writing : [:] at 12-4
+writing : [3] at 13-4
+writing : [2] at 14-4
+vec[0] : 16 - vec[1] : 3
+x : 0 - y : 6
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+vec[0] : 23
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 6
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-6
+writing : [n] at 1-6
+writing : [t] at 2-6
+writing : [e] at 3-6
+writing : [l] at 4-6
+writing : [(] at 5-6
+writing : [R] at 6-6
+writing : [)] at 7-6
+writing : [ ] at 8-6
+writing : [C] at 9-6
+writing : [o] at 10-6
+writing : [r] at 11-6
+writing : [e] at 12-6
+writing : [(] at 13-6
+writing : [T] at 14-6
+writing : [M] at 15-6
+writing : [)] at 16-6
+writing : [ ] at 17-6
+writing : [i] at 18-6
+writing : [5] at 19-6
+writing : [-] at 20-6
+writing : [3] at 21-6
+writing : [4] at 22-6
+writing : [7] at 23-6
+writing : [0] at 24-6
+writing : [S] at 25-6
+writing : [ ] at 26-6
+writing : [C] at 27-6
+writing : [P] at 28-6
+writing : [U] at 29-6
+writing : [ ] at 0-7
+writing : [@] at 1-7
+writing : [ ] at 2-7
+writing : [2] at 3-7
+writing : [.] at 4-7
+writing : [9] at 5-7
+writing : [0] at 6-7
+writing : [G] at 7-7
+writing : [H] at 8-7
+writing : [z] at 9-7
+Writing at : 0 - 8
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-8
+writing : [o] at 1-8
+writing : [g] at 2-8
+writing : [i] at 3-8
+writing : [c] at 4-8
+writing : [a] at 5-8
+writing : [l] at 6-8
+writing : [ ] at 7-8
+writing : [c] at 8-8
+writing : [p] at 9-8
+writing : [u] at 10-8
+writing : [ ] at 11-8
+writing : [n] at 12-8
+writing : [u] at 13-8
+writing : [m] at 14-8
+writing : [b] at 15-8
+writing : [e] at 16-8
+writing : [r] at 17-8
+writing : [:] at 18-8
+writing : [ ] at 19-8
+writing : [4] at 20-8
+Writing at : 0 - 9
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-9
+writing : [h] at 1-9
+writing : [y] at 2-9
+writing : [s] at 3-9
+writing : [i] at 4-9
+writing : [c] at 5-9
+writing : [a] at 6-9
+writing : [l] at 7-9
+writing : [ ] at 8-9
+writing : [c] at 9-9
+writing : [p] at 10-9
+writing : [u] at 11-9
+writing : [ ] at 12-9
+writing : [n] at 13-9
+writing : [u] at 14-9
+writing : [m] at 15-9
+writing : [b] at 16-9
+writing : [e] at 17-9
+writing : [r] at 18-9
+writing : [:] at 19-9
+writing : [ ] at 20-9
+writing : [3] at 21-9
+writing : [2] at 22-9
+writing : [7] at 23-9
+writing : [4] at 24-9
+writing : [3] at 25-9
+Writing at : 0 - 10
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-10
+writing : [r] at 1-10
+writing : [e] at 2-10
+writing : [q] at 3-10
+writing : [u] at 4-10
+writing : [e] at 5-10
+writing : [n] at 6-10
+writing : [c] at 7-10
+writing : [y] at 8-10
+writing : [:] at 9-10
+writing : [ ] at 10-10
+writing : [2] at 11-10
+writing : [.] at 12-10
+writing : [9] at 13-10
+writing : [G] at 14-10
+writing : [H] at 15-10
+writing : [z] at 16-10
+Writing at : 0 - 11
+------------------------------------------------------------trying to print Usage user : 7.94045%
+writing : [U] at 0-11
+writing : [s] at 1-11
+writing : [a] at 2-11
+writing : [g] at 3-11
+writing : [e] at 4-11
+writing : [ ] at 5-11
+writing : [u] at 6-11
+writing : [s] at 7-11
+writing : [e] at 8-11
+writing : [r] at 9-11
+writing : [ ] at 10-11
+writing : [:] at 11-11
+writing : [ ] at 12-11
+writing : [7] at 13-11
+writing : [.] at 14-11
+writing : [9] at 15-11
+writing : [4] at 16-11
+writing : [0] at 17-11
+writing : [4] at 18-11
+writing : [5] at 19-11
+writing : [%] at 20-11
+Writing at : 0 - 12
+------------------------------------------------------------trying to print Usage system : 14.1439%
+writing : [U] at 0-12
+writing : [s] at 1-12
+writing : [a] at 2-12
+writing : [g] at 3-12
+writing : [e] at 4-12
+writing : [ ] at 5-12
+writing : [s] at 6-12
+writing : [y] at 7-12
+writing : [s] at 8-12
+writing : [t] at 9-12
+writing : [e] at 10-12
+writing : [m] at 11-12
+writing : [ ] at 12-12
+writing : [:] at 13-12
+writing : [ ] at 14-12
+writing : [1] at 15-12
+writing : [4] at 16-12
+writing : [.] at 17-12
+writing : [1] at 18-12
+writing : [4] at 19-12
+writing : [3] at 20-12
+writing : [9] at 21-12
+writing : [%] at 22-12
+Writing at : 0 - 13
+------------------------------------------------------------trying to print Usage idle : 77.9156%
+writing : [U] at 0-13
+writing : [s] at 1-13
+writing : [a] at 2-13
+writing : [g] at 3-13
+writing : [e] at 4-13
+writing : [ ] at 5-13
+writing : [i] at 6-13
+writing : [d] at 7-13
+writing : [l] at 8-13
+writing : [e] at 9-13
+writing : [ ] at 10-13
+writing : [:] at 11-13
+writing : [ ] at 12-13
+writing : [7] at 13-13
+writing : [7] at 14-13
+writing : [.] at 15-13
+writing : [9] at 16-13
+writing : [1] at 17-13
+writing : [5] at 18-13
+writing : [6] at 19-13
+writing : [%] at 20-13
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 15
+vec[0] : 30
+vec[1] : 1
+vec[0] : 21
+vec[1] : 0
+vec[0] : 26
+vec[1] : 0
+vec[0] : 17
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+vec[0] : 23
+vec[1] : 0
+vec[0] : 21
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 15
+------------------------------------------------------------trying to print Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+writing : [I] at 0-15
+writing : [n] at 1-15
+writing : [t] at 2-15
+writing : [e] at 3-15
+writing : [l] at 4-15
+writing : [(] at 5-15
+writing : [R] at 6-15
+writing : [)] at 7-15
+writing : [ ] at 8-15
+writing : [C] at 9-15
+writing : [o] at 10-15
+writing : [r] at 11-15
+writing : [e] at 12-15
+writing : [(] at 13-15
+writing : [T] at 14-15
+writing : [M] at 15-15
+writing : [)] at 16-15
+writing : [ ] at 17-15
+writing : [i] at 18-15
+writing : [5] at 19-15
+writing : [-] at 20-15
+writing : [3] at 21-15
+writing : [4] at 22-15
+writing : [7] at 23-15
+writing : [0] at 24-15
+writing : [S] at 25-15
+writing : [ ] at 26-15
+writing : [C] at 27-15
+writing : [P] at 28-15
+writing : [U] at 29-15
+writing : [ ] at 0-16
+writing : [@] at 1-16
+writing : [ ] at 2-16
+writing : [2] at 3-16
+writing : [.] at 4-16
+writing : [9] at 5-16
+writing : [0] at 6-16
+writing : [G] at 7-16
+writing : [H] at 8-16
+writing : [z] at 9-16
+Writing at : 0 - 17
+------------------------------------------------------------trying to print Logical cpu number: 4
+writing : [L] at 0-17
+writing : [o] at 1-17
+writing : [g] at 2-17
+writing : [i] at 3-17
+writing : [c] at 4-17
+writing : [a] at 5-17
+writing : [l] at 6-17
+writing : [ ] at 7-17
+writing : [c] at 8-17
+writing : [p] at 9-17
+writing : [u] at 10-17
+writing : [ ] at 11-17
+writing : [n] at 12-17
+writing : [u] at 13-17
+writing : [m] at 14-17
+writing : [b] at 15-17
+writing : [e] at 16-17
+writing : [r] at 17-17
+writing : [:] at 18-17
+writing : [ ] at 19-17
+writing : [4] at 20-17
+Writing at : 0 - 18
+------------------------------------------------------------trying to print physical cpu number: 32743
+writing : [p] at 0-18
+writing : [h] at 1-18
+writing : [y] at 2-18
+writing : [s] at 3-18
+writing : [i] at 4-18
+writing : [c] at 5-18
+writing : [a] at 6-18
+writing : [l] at 7-18
+writing : [ ] at 8-18
+writing : [c] at 9-18
+writing : [p] at 10-18
+writing : [u] at 11-18
+writing : [ ] at 12-18
+writing : [n] at 13-18
+writing : [u] at 14-18
+writing : [m] at 15-18
+writing : [b] at 16-18
+writing : [e] at 17-18
+writing : [r] at 18-18
+writing : [:] at 19-18
+writing : [ ] at 20-18
+writing : [3] at 21-18
+writing : [2] at 22-18
+writing : [7] at 23-18
+writing : [4] at 24-18
+writing : [3] at 25-18
+Writing at : 0 - 19
+------------------------------------------------------------trying to print Frequency: 2.9GHz
+writing : [F] at 0-19
+writing : [r] at 1-19
+writing : [e] at 2-19
+writing : [q] at 3-19
+writing : [u] at 4-19
+writing : [e] at 5-19
+writing : [n] at 6-19
+writing : [c] at 7-19
+writing : [y] at 8-19
+writing : [:] at 9-19
+writing : [ ] at 10-19
+writing : [2] at 11-19
+writing : [.] at 12-19
+writing : [9] at 13-19
+writing : [G] at 14-19
+writing : [H] at 15-19
+writing : [z] at 16-19
+Writing at : 0 - 20
+------------------------------------------------------------trying to print Usage user : 7.94045%
+writing : [U] at 0-20
+writing : [s] at 1-20
+writing : [a] at 2-20
+writing : [g] at 3-20
+writing : [e] at 4-20
+writing : [ ] at 5-20
+writing : [u] at 6-20
+writing : [s] at 7-20
+writing : [e] at 8-20
+writing : [r] at 9-20
+writing : [ ] at 10-20
+writing : [:] at 11-20
+writing : [ ] at 12-20
+writing : [7] at 13-20
+writing : [.] at 14-20
+writing : [9] at 15-20
+writing : [4] at 16-20
+writing : [0] at 17-20
+writing : [4] at 18-20
+writing : [5] at 19-20
+writing : [%] at 20-20
+Writing at : 0 - 21
+------------------------------------------------------------trying to print Usage system : 14.1439%
+writing : [U] at 0-21
+writing : [s] at 1-21
+writing : [a] at 2-21
+writing : [g] at 3-21
+writing : [e] at 4-21
+writing : [ ] at 5-21
+writing : [s] at 6-21
+writing : [y] at 7-21
+writing : [s] at 8-21
+writing : [t] at 9-21
+writing : [e] at 10-21
+writing : [m] at 11-21
+writing : [ ] at 12-21
+writing : [:] at 13-21
+writing : [ ] at 14-21
+writing : [1] at 15-21
+writing : [4] at 16-21
+writing : [.] at 17-21
+writing : [1] at 18-21
+writing : [4] at 19-21
+writing : [3] at 20-21
+writing : [9] at 21-21
+writing : [%] at 22-21
+Writing at : 0 - 22
+------------------------------------------------------------trying to print Usage idle : 77.9156%
+writing : [U] at 0-22
+writing : [s] at 1-22
+writing : [a] at 2-22
+writing : [g] at 3-22
+writing : [e] at 4-22
+writing : [ ] at 5-22
+writing : [i] at 6-22
+writing : [d] at 7-22
+writing : [l] at 8-22
+writing : [e] at 9-22
+writing : [ ] at 10-22
+writing : [:] at 11-22
+writing : [ ] at 12-22
+writing : [7] at 13-22
+writing : [7] at 14-22
+writing : [.] at 15-22
+writing : [9] at 16-22
+writing : [1] at 17-22
+writing : [5] at 18-22
+writing : [6] at 19-22
+writing : [%] at 20-22
+vec[0] : 30 - vec[1] : 9
+x : 0 - y : 24
+vec[0] : 22
+vec[1] : 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Entering in DisplayBlock
+Writing at : 0 - 24
+------------------------------------------------------------trying to print Memory usage : 96.428%
+writing : [M] at 0-24
+writing : [e] at 1-24
+writing : [m] at 2-24
+writing : [o] at 3-24
+writing : [r] at 4-24
+writing : [y] at 5-24
+writing : [ ] at 6-24
+writing : [u] at 7-24
+writing : [s] at 8-24
+writing : [a] at 9-24
+writing : [g] at 10-24
+writing : [e] at 11-24
+writing : [ ] at 12-24
+writing : [:] at 13-24
+writing : [ ] at 14-24
+writing : [9] at 15-24
+writing : [6] at 16-24
+writing : [.] at 17-24
+writing : [4] at 18-24
+writing : [2] at 19-24
+writing : [8] at 20-24
+writing : [%] at 21-24
+vec[0] : 22 - vec[1] : 2
+x : 0 - y : 26
