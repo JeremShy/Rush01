@@ -1,8 +1,6 @@
 #ifndef MAIN_HPP
 # define MAIN_HPP
 
-#include <SDL2/SDL.h>
-#include <SDL_ttf.h>
 #include <iostream>
 #include <sstream>
 #include <DisplayBlock.hpp>
@@ -14,4 +12,6 @@
 #include <MemModule.hpp>
 #include <NcurseDisplay.hpp>
 
+
+void _test_histogramfield(void);
 #endif

@@ -30,8 +30,8 @@ Kernel configured for up to 4 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 245 tasks, 1123 threads, 4 processors
-Load average: 2.00, Mach factor: 1.99
+Default processor set: 257 tasks, 1310 threads, 4 processors
+Load average: 2.00, Mach factor: 2.05
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -1012,7 +1012,7 @@ configure:16618: checking for _strrev
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__strrev", referenced from:
-      _main in conftest-a7fbc4.o
+      _main in conftest-7c0337.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1120,7 +1120,7 @@ configure:16618: checking for _strupr
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__strupr", referenced from:
-      _main in conftest-9c4940.o
+      _main in conftest-346a75.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1228,7 +1228,7 @@ configure:16618: checking for _strlwr
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__strlwr", referenced from:
-      _main in conftest-a039e4.o
+      _main in conftest-a24ef8.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1363,7 +1363,7 @@ configure:16618: checking for itoa
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_itoa", referenced from:
-      _main in conftest-e70063.o
+      _main in conftest-594fc9.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1474,7 +1474,7 @@ configure:16618: checking for _ltoa
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__ltoa", referenced from:
-      _main in conftest-85647f.o
+      _main in conftest-589d38.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1585,7 +1585,7 @@ configure:16618: checking for _uitoa
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__uitoa", referenced from:
-      _main in conftest-23a738.o
+      _main in conftest-dd455c.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1696,7 +1696,7 @@ configure:16618: checking for _ultoa
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__ultoa", referenced from:
-      _main in conftest-8b8160.o
+      _main in conftest-dba768.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1815,7 +1815,7 @@ configure:16618: checking for _i64toa
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__i64toa", referenced from:
-      _main in conftest-9e80b2.o
+      _main in conftest-237780.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -1928,7 +1928,7 @@ configure:16618: checking for _ui64toa
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__ui64toa", referenced from:
-      _main in conftest-8031ca.o
+      _main in conftest-593144.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -2075,7 +2075,7 @@ configure:16618: checking for _stricmp
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__stricmp", referenced from:
-      _main in conftest-f0c8cf.o
+      _main in conftest-219a1a.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -2203,7 +2203,7 @@ configure:16618: checking for _strnicmp
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__strnicmp", referenced from:
-      _main in conftest-514e74.o
+      _main in conftest-86733c.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -2354,7 +2354,7 @@ configure:16618: checking for fseeko64
 configure:16618: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include   -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_fseeko64", referenced from:
-      _main in conftest-dbd95f.o
+      _main in conftest-e84c19.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16618: $? = 1
@@ -3627,7 +3627,7 @@ conftest.c:124:19: warning: implicit declaration of function 'sem_timedwait' is 
 1 warning generated.
 Undefined symbols for architecture x86_64:
   "_sem_timedwait", referenced from:
-      _main in conftest-ce1336.o
+      _main in conftest-9aabac.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:22147: $? = 1
@@ -3896,7 +3896,7 @@ configure:22213: checking for pthread_set_name_np
 configure:22233: gcc -o conftest -g -O2 -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include  -D_THREAD_SAFE  -Iinclude -I/Users/jcamhi/Piscine_CPP/rush01/SDL2-2.0.5/include    conftest.c  -lm -liconv  >&5
 Undefined symbols for architecture x86_64:
   "_pthread_set_name_np", referenced from:
-      _main in conftest-2cf5fc.o
+      _main in conftest-6ce0bd.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:22233: $? = 1
