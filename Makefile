@@ -17,7 +17,6 @@ FILES					= main \
 								 MemModule \
 								 NcurseDisplay \
 								 display \
-								 SDLDisplay \
 								 _test_histogramfield
 SRC						= $(addprefix src/, $(addsuffix .cpp, $(FILES)))
 OBJ						= $(addprefix obj/, $(addsuffix .o, $(FILES)))
@@ -75,6 +74,7 @@ $(LIBS_DIR)/libSDL2_image.a:
 	@tar -xf $(PATH_SDL_TTF).tar.gz
 	@rm -rf $(PATH_SDL_TTF).tar.gz
 	@echo "\033[32mCompiling $(PATH_TTF) ...\033[0m"
+	export PKG_CONFIG_PATH=`cd $(PATH_FREETYPE)/builds/unix && pwd`
 	@cd $(PATH_SDL_TTF) && ./configure --with-freetype-prefix=`cd ../$(SDL_DIR) && pwd` --prefix=`cd ../$(SDL_DIR) && pwd` --with-sdl-prefix=`cd ../$(SDL_DIR) && pwd` && make -j 8 && make -j 8 install
 	@rm -rf $(PATH_SDL_TTF)
 

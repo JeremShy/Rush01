@@ -62,7 +62,7 @@ $(LIBS_DIR)/libSDL2_image.a:
 	@tar -xf $(PATH_FREETYPE).tar.gz
 	@rm -rf $(PATH_FREETYPE).tar.gz
 	@echo "\033[32mCompiling $(PATH_FREETYPE) ...\033[0m"
-	@cd $(PATH_FREETYPE) && ./configure --prefix=`cd ../$(SDL_DIR) && pwd` && make -j 8 -s && make -j 8 -s install
+	@cd $(PATH_FREETYPE) && ./configure --prefix=`cd ../$(SDL_DIR) && pwd` && make -j 8 -s && make -j 8 -s install && libtool --finish $(PATH_FREETYPE)/freetype_lib/lib
 	@rm -rf $(PATH_FREETYPE)
 
  $(LIBS_DIR)/libSDL2_ttf.a:
