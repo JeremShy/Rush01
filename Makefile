@@ -62,7 +62,8 @@ $(PATH_SDL_TTF):
 	@echo "\033[32mCompiling $(PATH_TTF) ...\033[0m"
 	@cd $(PATH_SDL_TTF) && mkdir -p ttf_lib
 # CFLAGS="-I `cd $(PATH_FREETYPE)/freetype_lib/include && pwd`" && LDFLAGS="-L`cd $(PATH_FREETYPE)/freetype_lib/lib && pwd`" && env &&
-	cd $(PATH_SDL_TTF) && ./configure --with-freetype-prefix=`cd ../$(PATH_FREETYPE)/freetype_lib && pwd` --prefix=`cd ttf_lib && pwd` --with-sdl-prefix=`cd ../$(LIB_SDL) && pwd` && make -j 8 && make -j 8 install
+	export PKG_CONFIG_PATH=`cd $(PATH_FREETYPE)/builds/unix && pwd`
+	env && cd $(PATH_SDL_TTF) && ./configure --with-freetype-prefix=`cd ../$(PATH_FREETYPE)/freetype_lib && pwd` --prefix=`cd ttf_lib && pwd` --with-sdl-prefix=`cd ../$(LIB_SDL) && pwd` && make -j 8 && make -j 8 install
 	# @rm -rf $(PATH_SDL_TTF)
 
 $(NAME): obj $(OBJ)

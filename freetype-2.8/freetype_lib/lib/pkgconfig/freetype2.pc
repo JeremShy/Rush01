@@ -1,0 +1,14 @@
+prefix=/Users/jcamhi/Piscine_CPP/rush01/freetype-2.8/freetype_lib
+exec_prefix=/Users/jcamhi/Piscine_CPP/rush01/freetype-2.8/freetype_lib
+libdir=/Users/jcamhi/Piscine_CPP/rush01/freetype-2.8/freetype_lib/lib
+includedir=/Users/jcamhi/Piscine_CPP/rush01/freetype-2.8/freetype_lib/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 20.0.14
+Requires:
+Requires.private: zlib
+Libs: -L${libdir} -lfreetype
+Libs.private: -lbz2
+Cflags: -I${includedir}/freetype2
